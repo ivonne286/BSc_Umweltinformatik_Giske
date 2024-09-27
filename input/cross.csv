@@ -1,0 +1,239 @@
+id;Fehlertyp;Kategorie
+2;Eingabefehler (herbo);Region
+2;Eingabefehler (herbo);Bestimmer/in
+2;Eingabefehler (herbo);Fundort
+2;Eingabefehler (herbo);Region
+2;Eingabefehler (herbo);Sammler/in
+2;Eingabefehler (herbo);Sammelnummer
+2;Eingabefehler (herbo);Region
+2;Eingabefehler (herbo);Sammelnummer
+2;Eingabefehler (herbo);Region
+2;Eingabefehler (herbo);Fundort
+2;Eingabefehler (herbo);Datum
+2;Eingabefehler (herbo);Sammler/in
+2;Eingabefehler (herbo);Fundort
+2;Eingabefehler (herbo);Datum
+2;Eingabefehler (herbo);Sammler/in
+2;Eingabefehler (herbo);Sammler/in
+2;Eingabefehler (herbo);Region
+2;Eingabefehler (herbo);Bestimmer/in
+2;Eingabefehler (herbo);Sammler/in
+2;Eingabefehler (herbo);Sammler/in
+2;Eingabefehler (herbo);Region
+2;Eingabefehler (herbo);Datum
+2;Eingabefehler (herbo);Fundort
+2;Eingabefehler (herbo);Sammler/in
+2;Eingabefehler (herbo);Sammler/in
+2;Eingabefehler (herbo);Region
+2;Eingabefehler (herbo);Sammler/in
+2;Eingabefehler (herbo);Sammelnummer
+2;Eingabefehler (herbo);Region
+2;Eingabefehler (herbo);Fundort
+2;Eingabefehler (herbo);Datum
+2;Eingabefehler (herbo);Sammelnummer
+2;Eingabefehler (herbo);Fundort
+2;Eingabefehler (herbo);Datum
+2;Eingabefehler (herbo);Sammler/in
+2;Eingabefehler (herbo);Sammelnummer
+2;Eingabefehler (herbo);Fundort
+2;Eingabefehler (herbo);Region
+2;Eingabefehler (herbo);Fundort
+2;Eingabefehler (herbo);Sammelnummer
+2;Eingabefehler (herbo);Sammelnummer
+2;Eingabefehler (herbo);Region
+2;Eingabefehler (herbo);Region
+2;Eingabefehler (herbo);Region
+2;Eingabefehler (herbo);Datum
+3;Geolokation falsch;Geolokation
+3;Geolokation falsch;Geolokation
+3;Geolokation falsch;Geolokation
+3;Geolokation falsch;Geolokation
+3;Geolokation falsch;Geolokation
+3;Geolokation falsch;Geolokation
+3;Geolokation falsch;Geolokation
+3;Geolokation falsch;Geolokation
+3;Geolokation falsch;Geolokation
+3;Geolokation falsch;Geolokation
+3;Geolokation falsch;Geolokation
+4;Geolokation unnötig;Geolokation
+4;Geolokation unnötig;Geolokation
+4;Geolokation unnötig;Geolokation
+4;Geolokation unnötig;Geolokation
+4;Geolokation unnötig;Geolokation
+4;Geolokation unnötig;Geolokation
+4;Geolokation unnötig;Geolokation
+4;Geolokation unnötig;Geolokation
+4;Geolokation unnötig;Geolokation
+4;Geolokation unnötig;Geolokation
+4;Geolokation unnötig;Geolokation
+4;Geolokation unnötig;Geolokation
+5;Geolokation ungenau;Geolokation
+5;Geolokation ungenau;Geolokation
+5;Geolokation ungenau;Geolokation
+5;Geolokation ungenau;Geolokation
+5;Geolokation ungenau;Geolokation
+5;Geolokation ungenau;Geolokation
+5;Geolokation ungenau;Geolokation
+5;Geolokation ungenau;Geolokation
+5;Geolokation ungenau;Geolokation
+6;Zu viel Information;Fundort
+6;Zu viel Information;Fundort
+6;Zu viel Information;Fundort
+6;Zu viel Information;Fundort
+6;Zu viel Information;Fundort
+6;Zu viel Information;Fundort
+6;Zu viel Information;Fundort
+6;Zu viel Information;Fundort
+6;Zu viel Information;Fundort
+7;Unentscheidbar;Region
+7;Unentscheidbar;Datum
+7;Unentscheidbar;Bestimmer/in
+7;Unentscheidbar;Region
+7;Unentscheidbar;Sammler/in
+7;Unentscheidbar;Sammelnummer
+7;Unentscheidbar;Sammler/in
+7;Unentscheidbar;Geolokation
+7;Unentscheidbar;Datum
+7;Unentscheidbar;Geolokation
+7;Unentscheidbar;Sammelnummer
+7;Unentscheidbar;Region
+7;Unentscheidbar;Datum
+7;Unentscheidbar;Sammler/in
+8;Zeichenfehler;Fundort
+8;Zeichenfehler;Fundort
+8;Zeichenfehler;Fundort
+8;Zeichenfehler;Fundort
+8;Zeichenfehler;Fundort
+8;Zeichenfehler;Fundort
+8;Zeichenfehler;Fundort
+8;Zeichenfehler;Fundort
+8;Zeichenfehler;Fundort
+8;Zeichenfehler;Fundort
+8;Zeichenfehler;Fundort
+13;Eingabefehler lt. Wiki;Herbar von
+13;Eingabefehler lt. Wiki;Herbar von
+13;Eingabefehler lt. Wiki;Geolokation
+13;Eingabefehler lt. Wiki;Herbar von
+13;Eingabefehler lt. Wiki;Bestimmer/in
+13;Eingabefehler lt. Wiki;Herbar von
+13;Eingabefehler lt. Wiki;Sammler/in
+13;Eingabefehler lt. Wiki;Fundort
+13;Eingabefehler lt. Wiki;Sammler/in
+13;Eingabefehler lt. Wiki;Herbar von
+13;Eingabefehler lt. Wiki;Geolokation
+13;Eingabefehler lt. Wiki;Geolokation
+13;Eingabefehler lt. Wiki;Sammler/in
+13;Eingabefehler lt. Wiki;Sammler/in
+13;Eingabefehler lt. Wiki;Bestimmer/in
+13;Eingabefehler lt. Wiki;Fundort
+13;Eingabefehler lt. Wiki;Fundort
+13;Eingabefehler lt. Wiki;Fundort
+13;Eingabefehler lt. Wiki;Sammler/in
+13;Eingabefehler lt. Wiki;Fundort
+13;Eingabefehler lt. Wiki;Fundort
+13;Eingabefehler lt. Wiki;Herbar von
+13;Eingabefehler lt. Wiki;Bestimmer/in
+13;Eingabefehler lt. Wiki;Fundort
+13;Eingabefehler lt. Wiki;Sammler/in
+13;Eingabefehler lt. Wiki;Fundort
+13;Eingabefehler lt. Wiki;Herbar von
+13;Eingabefehler lt. Wiki;Geolokation
+13;Eingabefehler lt. Wiki;Sammler/in
+13;Eingabefehler lt. Wiki;Fundort
+13;Eingabefehler lt. Wiki;Sammler/in
+13;Eingabefehler lt. Wiki;Herbar von
+13;Eingabefehler lt. Wiki;Sammler/in
+13;Eingabefehler lt. Wiki;Bestimmer/in
+13;Eingabefehler lt. Wiki;Sammler/in
+13;Eingabefehler lt. Wiki;Fundort
+13;Eingabefehler lt. Wiki;Herbar von
+13;Eingabefehler lt. Wiki;Herbar von
+13;Eingabefehler lt. Wiki;Geolokation
+13;Eingabefehler lt. Wiki;Sammler/in
+13;Eingabefehler lt. Wiki;Herbar von
+13;Eingabefehler lt. Wiki;Fundort
+13;Eingabefehler lt. Wiki;Fundort
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Land
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Land
+9;Eingabefehler (sys);Region
+9;Eingabefehler (sys);Region
+10;Validierungsproblem bei Widersprüchen;Region
+10;Validierungsproblem bei Widersprüchen;Region
+10;Validierungsproblem bei Widersprüchen;Geolokation
+10;Validierungsproblem bei Widersprüchen;Region
+10;Validierungsproblem bei Widersprüchen;Geolokation
+10;Validierungsproblem bei Widersprüchen;Geolokation
+10;Validierungsproblem bei Widersprüchen;Geolokation
+10;Validierungsproblem bei Widersprüchen;Region
+10;Validierungsproblem bei Widersprüchen;Geolokation
+10;Validierungsproblem bei Widersprüchen;Geolokation
+10;Validierungsproblem bei Widersprüchen;Region
+10;Validierungsproblem bei Widersprüchen;Geolokation
+10;Validierungsproblem bei Widersprüchen;Region
+10;Validierungsproblem bei Widersprüchen;Region
+11;Validierungsproblem Sonstige;Geolokation
+11;Validierungsproblem Sonstige;Geolokation
+11;Validierungsproblem Sonstige;Geolokation
+11;Validierungsproblem Sonstige;Fundort
+11;Validierungsproblem Sonstige;Fundort
+11;Validierungsproblem Sonstige;Geolokation
+11;Validierungsproblem Sonstige;Fundort
+11;Validierungsproblem Sonstige;Fundort
+11;Validierungsproblem Sonstige;Fundort
+11;Validierungsproblem Sonstige;Fundort
+11;Validierungsproblem Sonstige;Fundort
+11;Validierungsproblem Sonstige;Fundort
+11;Validierungsproblem Sonstige;Geolokation
+11;Validierungsproblem Sonstige;Bestimmer/in
+11;Validierungsproblem Sonstige;Geolokation
+11;Validierungsproblem Sonstige;Fundort
+11;Validierungsproblem Sonstige;Geolokation
+11;Validierungsproblem Sonstige;Fundort
+11;Validierungsproblem Sonstige;Fundort
+11;Validierungsproblem Sonstige;Geolokation
+11;Validierungsproblem Sonstige;Fundort
+11;Validierungsproblem Sonstige;Fundort
+11;Validierungsproblem Sonstige;Fundort
+11;Validierungsproblem Sonstige;Fundort
+12;Technischer Fehler;Fundort
+14;Ressourcenfehler;Geolokation
+14;Ressourcenfehler;Wiss. Name

@@ -1,0 +1,13 @@
+id;name;description
+0;Gesamtbeleg;Wählen, wenn keine Kategorie fehlerhaft erfasst wurde, also alles richtig erfasst wurde, Gesamtbeleg betroffen.
+1;Land;Das Land, in dem der Beleg gesammelt wurde. (Liste)
+2;Region;Die Region oder der Distrikt, wo die Pflanze gesammelt wurde. (Liste)
+3;Datum;Sammeldatum
+4;Sammler/in;Sammler, meist abgekürzt oder Initialen (Liste und Neueintrag)
+5;Sammelnummer;Sammelnummer
+6;Bestimmer/in;Bestimmer
+7;Fundort;Fundort, Beschreibung der Umgebung inklusive Habitat und Höhenangabe (Freitext)
+8;Herbar von;Besitzer des Herbars
+9;Geolokation;Koordinaten des Fundorts, teils mit Ungenauigkeitsradius
+10;Wiss. Name;Wissenschaftlicher Name des Taxons (Art, Gattung, Familie,...) (Liste)
+11;Unbrauchbar;Beleg unbrauchbar, siehe Wiki (Checkbox)

@@ -1,0 +1,572 @@
+id;voucher_id;specimen_id;error_type_id;error_type_code;category_id;discussion_available;notes
+1;B101212932;;1;1;0;0;
+2;B 10 1039812;;1;1;0;0;
+3;B 10 0677802;;1;1;0;0;
+4;B 30 0319836;;9;7;2;0;Region ist aktuell „FI-15 Pohjois-Savo“
+5;B 10 1064766;;1;1;0;0;kleiner Teil der Fundortbeschreibung fehlt, evtl. nicht wichtig/nötig?
+6;B 10 0293015;;4;3b;9;0;Geolokation unnötig, Etikettenautor ist auch nicht sicher und zu Sibolangit kommen mehrere Gebiete in Frage, die 60 km voneinander entfernt sind, „Ich bin mir nicht sicher.“ angegeben, aber hilft nix
+7;B 30 0313021;;1;1;0;0;System hat eher aus Zufall die richtige Fundortbeschreibung gewählt, 3 verschiedene wurden eingegeben (first come, first served)
+8;B 10 1064102;;1;1;0;0;
+9;B101096284;;1;1;0;0;
+10;B101072266;;1;1;0;0;
+11;B 10 1186865;;1;1;0;0;
+12;B 10 1027440;;1;1;0;0;
+13;B 10 1185813;;7;5;2;0;Unentscheidbar, da Etikett widersprüchlich, Karibib liegt in der Region Erongo, näher am Rand der Namib (Namibrand), Otjosondu in der Region Otjozondjupa, auch nach intensiver Recherche lässt sich nicht klar feststellen, was Seydel hier meint (gbif, JACQ), siehe auch „B101123019 “
+14;B 10 1185813;;4;3b;9;0;Unnötig lokalisiert, da widersprüchliche Etikettenangaben zum Fundort (Region unentscheidbar), zwischen Karibib und Otjosondu liegen Luftlinie 100 km
+15;B 10 1180722;;1;1;0;0;
+16;B 10 0001506;;1;1;0;1;Diskussion war hier sehr hilfreich
+17;B101127834;;1;1;0;0;
+18;B 10 0423610;;1;1;0;0;
+19;B 10 1178249;;1;1;0;1;Diskussion war hier sehr hilfreich
+20;B100704511;;1;1;0;0;
+21;B100138099;;1;1;0;0;
+22;B101071297;;5;3c;9;1;"Ungünstig lokalisiert, Fundortbeschreibung nicht gut beachtet (Etikett: 22 km N. of Vanrhynsdorp and 1 km E. of the highway to Garies, along track to ""Douse the Glim""), die falsch gewählten Koordinaten liegen 42 km N von Vanrhynsdorp, 20 km von korrekt entfernt, farm „Douse the Glim“ ist gut mit geonames.org auffindbar, direkten Weg (track) dorthin existiert, korrekt also: „-31.400535 , 18.687744“,  siehe Validierungsproblem "
+23;B101071297;;11;8b;9;1;Vorrangfrage und Mehrheit ohne Einfluss, erste Eingabe ungenau und validiert, die beiden später gewählten Koordinaten sind korrekter, siehe dazu im Gegensatz B 10 0029202
+24;B 10 0677214;;1;1;0;0;
+25;B 10 1021390;;3;3a;9;0;Falsch lokalisiert, der Name des Gipfels (Itacolomi) existiert öfter, die Beschreibung „in der Nähe des Ortes Ouro Preto“ wurde missachtet, korrekte Koordinaten: „-20.428219, -43.473673“ (falsch lokalisierter Ort liegt davon 160 km entfernt)
+26;B 10 1181433;;1;1;0;0;
+27;B101123903;;1;1;0;0;
+28;B 10 1179969;;2;2;2;0;Region nicht aktuell, korrekte Region „GR-M Kreta (Kríti)“ stand zum Zeitpunkt der Dateneingabe zur Verfügung
+29;B 10 1178502;;1;1;0;0;
+30;B 10 1185880;;1;1;0;0;
+31;B 10 1002260;;9;7;2;0;Region ist aktuell „FR-HDF Hauts-de-France“
+32;B101128551;;1;1;0;0;
+33;B 10 1027641;;1;1;0;0;
+34;B 10 1065130;;1;1;0;0;
+35;B 10 0001510;;1;1;0;0;
+36;B101128792;;1;1;0;0;
+37;B 10 0503966;;1;1;0;0;
+38;B101125919;;1;1;0;0;
+39;B 30 0311786;;1;1;0;0;100-Jahr-Fehler, beim barcode Check korrekt (JACQ)
+40;B101127394;;4;3b;9;0;Unnötig lokalisiert, nicht nachvollziehbar, die Ausdehnung der Stadt (Port Elisabeth, heute Gqeberha) ist groß und welcher Wald gemeint ist, geht nicht aus dem Etikett hervor, Geolokation mit < 5 km Genauigkeit erklärt sich nicht, korrekt: „Beleg kann nicht lokalisiert werden“
+41;B 10 1039751;;9;7;2;0;Region ist aktuell „FR-OCC Occitanie“
+42;B 10 0611585;;1;1;0;0;
+43;B101071444;;1;1;0;0;
+44;B 10 1177104;;2;2;6;0;Bestimmer korrekt: „G. M. Schulze“ nicht „G. M. Schultze“
+45;B 10 0677116;;1;1;0;0;
+46;B 10 1180957;;1;1;0;0;
+47;B100013051;;5;3c;9;0;Ungenau lokalisiert, 10 km von korrekt entfernt, Fundortbeschreibung nicht beachtet (Malabo-Cupapa, km 15-16 = Straße von M nach C, nach 15 - 16 km) , < 20 km wurde gewählt, obwohl korrekt möglich gewesen wäre, siehe Validierungsproblem 
+48;B100013051;;11;8b;9;0;Vorrangfrage, erste Eingabe ungenau und validiert (trotz < 20 km Angabe), spätere Eingabe ist korrekt, viel präziser 
+49;B 30 0311183;;1;1;0;0;
+50;B 30 0313717;;2;2;7;0;Ortsname und Straßenbezeichung „Flesch“ fehlt (liegt oberhalb Goppisberg) und Höhenangabe „1848 m“ fehlt auch
+51;B 30 0313387;;2;2;2;0;Region sollte „CH-VD Waadt(Vaud)“ sein, nicht „Jura“, Jura auf dem Etikett bezieht sich auf die Gebirgsregion, an der auch Waadt einen Anteil hat
+52;B 30 0313387;;5;3c;9;0;Ungenau lokalisiert, Fundortbeschreibung nicht beachtet (Etikett: 60 km N von Genf), es wurden Koordinaten gewählt, die 33 km N von Genf liegen. Außerdem lassen sich Le Brassus und La Burtigniere (46.5608, 6.1715 OpenTopo) genau lokalisieren und liegen nur 3,9 km auseinander (11 km von den gewählten Koordinaten entfernt), „Ich bin mir nicht sicher“ wurde zwar gewählt, aber bewirkt nichts, Koord. liegen in der richtigen Region Vaud, allerdings wurde die falsche Region bestimmt, siehe Validierungsproblem
+53;B 30 0313387;;10;8a;2;0;Widerspruch falsche Region, nicht korrekte Koordinaten, die jedoch in der richtigen Region liegen
+54;B 10 0048876;;4;3b;9;0;Unnötig lokalisiert, mit Umkreisangabe < 20 km, Dean Channel ist der obere Teil eines langen Fjordes und ca. 105 km lang, korrekt: „Beleg kann nicht lokalisiert werden“, https://geonames.nrcan.gc.ca/search-place-names/unique?id=JAPER
+55;B100351714;;1;1;0;0;
+56;B 10 1180626;;1;1;0;1;
+57;B 10 0677282;;13;10;8;1;Wiki-Sonderregel nicht beachtet: „A. Peter, Reisen in Afrika 1913/16.“ in die Kategorie „Herbar von“ eintragen, da die Angaben für aktuelle Forschungen hohe Wichtigkeit besitzen
+58;B101033452;;1;1;0;0;
+59;B 10 0544073;;13;10;8;0;Wiki-Sonderregel nicht beachtet: „A. Peter, Reisen in Afrika 1913/16.“ in die Kategorie „Herbar von“ eintragen, da die Angaben für aktuelle Forschungen hohe Wichtigkeit besitzen
+60;B101001103;;1;1;0;0;
+61;B 10 1026882;;1;1;0;1;
+62;B101071273;;1;1;0;0;
+63;B 10 1184301;;1;1;0;0;Hinweis: leicht verbesserte Koordinaten, sehr gut gemacht
+64;B 30 0318109;;1;1;0;0;100-Jahr-Fehler, beim barcode Check korrekt, man hätte genauer lokalisieren können: https://de.wikipedia.org/wiki/Mittelbruch_(Berlin-Buch) - die ehemaligen Torfstiche stehen unter Naturschutz, die von Herbonauten gewählten Koordinaten liegen nur 2km entfernt, deshalb als korrekt akzeptiert
+65;B 10 1181903;;13;10;9;1;Wiki: Die Übertragung von Koordinaten von Institutionen (z.B. botanische Gärten) und auch privaten Gärten ist explizit nicht vorgesehen.
+66;B 30 0316260;;6;4;7;0;Etikettentitel „Flora Europaea“ im Fundort überflüssig, 100-Jahr-Fehler beim barcode Check korrekt (JACQ)
+67;B101126746;;1;1;0;1;
+68;B101023395;;2;2;4;0;Initiale fehlt: „M. Poilane“, wobei unklar ist, was das M. bedeutet, es könnte sich um Eugene Poilane selbst oder die Ehefrau Yvonne Poilane, abgekürzt mit M. (Madame) Poilane handeln, siehe: https://www.wikidata.org/wiki/Q107199110
+69;B 30 0317306;;1;1;0;0;
+70;B 10 1175118;;1;1;0;0;
+71;B 10 1182306;;1;1;0;0;Höhenmeter hätten besser beachtet werden können bei der Geolokation, aber ist ziemlich korrekt
+72;B 10 1186687;;1;1;0;0;Ungenauigkeit < 1 km finde ich etwas gewagt bei so wenigen Details zum Fundort, aber ok
+73;B101123595;;5;3c;9;1;Ungenau lokalisiert, Genauigkeit 5 km stimmt nicht, denn die Koordinaten liegen über 10,5 km von Kowisberge entfernt, und der eigene Diskussionsbeitrag mit Hinweis auf die korrekten Koordinaten wurde nicht beachtet), korrekte Koordinaten: „-26.616667 , 15.316667“, siehe auch Validierungsproblem: „bin mir nicht sicher“ wurde eingegeben
+74;B101123595;;11;8b;9;1;Vorrangfrage, erste Eingabe ungenau und validiert trotz „bin mir nicht sicher“ und späterer korrekter Eingabe (Kowisberge Südseite, Koordinaten aus Diskussion)
+75;B 10 1022869;;13;10;8;1;Wiki: Institutionelles Herbar ist angegeben, Sammler/in ist angegeben/ nicht angegeben -> Kein Eintrag im Feld „Herbar von“ 
+76;B 10 1023013;;1;1;0;0;
+77;B 10 1180140;;1;1;0;0;Cortijo de San Jerónimo, Gegend bei Botanikern beliebt
+78;B101126024;;4;3b;9;1;Unnötig lokalisiert, auch mit Diskussion und Verlinkung auf den zweiten Beleg (selber Sammler, Datum) ist nicht klar, wie die unauffindbare Farm lokalisiert wurde, korrekt: „Beleg kann nicht lokalisiert werden“
+79;B101200724;;1;1;0;0;
+80;B101223153;;1;1;0;0;
+81;B 30 0317835;;1;1;0;0;100-Jahr-Fehler (hier 200 Jahre!), beim barcode Check korrekt
+82;B101125012;;2;2;5;1;Herbarnummer als Sammelnummer eingetragen
+83;B 10 1175647;;1;1;0;0;„Herb. Ind. Or. Hook. fil. & Thomson.“ ist hier so etwas wie der Etikettenname (bspw. „Flora of India“) und „Ind. Or.“ ist nur leicht überflüssig im Fundort, da Indien klar ist, aber egal
+84;B101199008;;7;5;3;1;Unentscheidbar, Etikett unten abgeschnitten und zwei Daten zu sehen, 26.9.(1910 oder 1918) und 30.03.05, M. de Vilmorin lebte bis 1918, nicht eindeutig, sollte in die Diskussion einfließen
+85;B101122239;;1;1;0;0;Hinweise: d.d. = de dato = vom Datum = Sammeldatum, no. Cit.: numerus citatus = Sammelnummer
+86;B 10 0299486;;1;1;0;0;
+87;B 10 1177039;;2;2;2;0;Region sollte „CM-SW Sud-Ouest“  sein, nicht „Sud“
+88;B 10 1177039;;10;8a;2;0;Widerspruch falsche Region, korrekte Koordinaten
+89;B 10 1176059;;1;1;0;0;
+90;B 10 1026762;;1;1;0;0;
+91;B100740367;;1;1;0;1;
+92;B100606260;;1;1;0;0;
+93;B101071055;;1;1;0;0;
+94;B 30 0319698;;8;6;7;0;Tippfehler im Ortsname von Frahm übernommen, außerdem Tippfehler in Höhenangabe: „15 me“ statt „15m“
+95;B 30 0319698;;9;7;2;0;Region ist aktuell „TR-48 Muğla“
+96;B 30 0319698;;11;8b;7;0;Vorrangfrage, die ersten beiden Eingaben sind fehlerhaft, die erste wurde validiert, die dritte Eingabe ist korrekt
+97;B 10 0652779;;1;1;0;1;Ngambo ist ein Hügel/Berg in den Ost-Usambara-Bergen: https://peakvisor.com/peak/ngambo.html?yaw=0.00&pitch=0.00&hfov=60.00 ca. 6km von den Koordinaten der Herbonauten entfernt, die laut Diskussion auf eine Wetterstation weisen, die evtl. auch gemeint sein kann (Ngambo Fabrik)
+98;B 10 1175097;;1;1;0;0;
+99;B 10 1181192;;1;1;0;0;
+100;B 10 9008122;;9;7;1;1;Land heißt jetzt korrekt „MK Nordmazedonien“ (Namensänderung in Kraft seit Februar 2019)
+101;B 10 1178485;;1;1;0;0;
+102;B 10 1039218;;1;1;0;0;
+103;B 10 1176340;;2;2;5;0;MTB (Meßtischblatt-Nr.) als Sammelnummer eingetragen, korrekte Sammelnummer evtl. ganz oben rechts auf dem Blatt notiert („1582“), aber unsicher
+104;B101028091;;1;1;0;1;
+105;B101129715;;1;1;0;1;bin zwar unsicher, aber bessere Lösung eher unmöglich bzgl. Geolok.
+106;B 10 1026269;;1;1;0;0;
+107;B 10 1176614;;1;1;0;0;
+108;B 30 0310329;;9;7;2;0;Region ist aktuell „FR-BFC Bourgogne-Franche-Comté“
+109;B 10 0544037;;1;1;0;0;
+110;B 30 0319011;;1;1;0;0;
+111;B101213758;;1;1;0;0;
+112;B 30 0314424;;1;1;0;0;
+113;B101125171;;1;1;0;0;
+114;B 10 1183132;;1;1;0;0;Umkreis nicht übernommen, Informationsverlust.
+115;B101123239;;1;1;0;0;
+116;B 10 1040143;;1;1;0;0;
+117;B 30 0316132;;1;1;0;0;Hinweis: Geolokation auf 500m genau, Giselapromenade (bis 1918 so genannt) verläuft vor dem Kurhaus auf der anderen Flussseite, siehe: https://www.postcard-shop.de/meran-giselapromenade?a=2695886 und https://www.merano-suedtirol.it/en/merano/active-relaxing/walking-hiking/sissi-s-path.html 
+118;B101123600;;1;1;0;0;
+119;B101097177;;1;1;0;0;korrekt, aber die Koordinaten von IKO wären besser gewesen
+120;B101122648;;1;1;0;0;
+121;B 10 1182762;;7;5;6;1;Unentscheidbar, Leitfadenlücke, „Anonymous (Staff B)“ als Bestimmer, siehe Diskussion der Herbonauten, im Wiki findet sich keine Angabe zu dieser Frage und die übliche Praxis scheint eher zu sein, dass „keine Information“ ausgewählt wird
+122;B101072429;;1;1;0;0;
+123;B101126827;;2;2;2;0;Region sollte „MG-13 Diana“ sein, ist leer, Region wurde von 1 Person korrekt abgeleitet, obwohl 2 Personen Geokoordinaten eingegeben haben, hätte also auch von der 2. Person abgeleitet werden können
+124;B101122229;;1;1;0;0;
+125;B 10 0761465;;9;7;2;0;Region ist aktuell „IT-42 Liguria“
+126;B100313046;;1;1;0;1;
+127;B 30 0318860;;9;7;2;0;Region ist aktuell „FR-BFC Bourgogne-Franche-Comté“
+128;B 10 0013588;;1;1;0;1;
+129;B101200690;;1;1;0;1;es wäre schön, wenn der lokalisierte Ort bei Geolokalisierung mit angegeben worden wäre
+130;B101072726;;1;1;0;0;
+131;B 10 1021351;;13;10;6;0;Wiki: Ergänzungen, wie z.B. den kompletten Namen tragen Sie bitte NICHT in eckigen Klammern in das Feld, sondern nur in den Diskussionen ein
+132;B 10 0677313;;8;6;7;0;Tippfehler: „V.1 Z.3“ statt „V.2 Z.3“, Artikel falsch übertragen: „der“ statt „das“ Luengeratal
+133;B 10 0677313;;11;8b;7;0;Mehrheitsproblem vs. Ersteingabe, die erste Eingabe war korrekt, die beiden späteren Eingaben fehlerhaft (2 Fehler), aber in der Mehrheit und validiert
+134;B 10 1186705;;1;1;0;0;
+135;B 30 0316389;;1;1;0;0;100-Jahr-Fehler, beim barcode Check korrekt (JACQ), Region nicht eindeutig, laut Wiki dann „keine Information“, aber durch „ich bin mir nicht sicher“ und weil es 2 Leute gewählt haben, ist es richtig. Hier zeigt sich jedoch das Problem, dass in der validierten Form „guessed“, „not sure“ und „no information“ auf false stehen, da es nur von einer Person benutzt wurde und nicht von beiden. Diese Unsicherheitsinformationen gehen also verloren.
+136;B 10 1022769;;1;1;0;0;
+137;B 10 1182100;;13;10;8;0;Wiki: Institutionelles Herbar ist angegeben, Sammler/in ist angegeben/ nicht angegeben -> Kein Eintrag im Feld „Herbar von“
+138;B 10 1182100;;5;3c;9;0;Ungenau lokalisiert, 10 km von korrekt entfernt, Fundortbeschreibung nicht beachtet, Himmelsrichtungsangabe auf dem Etikett (NNE) nicht beachtet, es wurden Koordinaten gewählt, die NNW von Penge liegen und angeblich unter 1km Genauigkeit haben. Korrekte Koordinaten der Gibraltar-Farm NNE von Penge: „-24.27135, 30.33763“ (geonames), zweite Eingabe korrekt, Validierungsproblem 
+139;B 10 1182100;;11;8b;9;0;Vorrangfrage, erste Eingabe ungenau und validiert, zweite Eingabe ist korrekter (entsprechend Himmelsrichtung und km-Angabe auf Etikett)
+140;B101072643;;13;10;4;1;Wiki: Ergänzungen, wie z.B. den kompletten Namen tragen Sie bitte NICHT in eckigen Klammern in das Feld, sondern nur in den Diskussionen ein
+141;B 30 0314975;;9;7;2;0;Region ist aktuell „FR-BFC Bourgogne-Franche-Comté“
+142;B101031667;;1;1;0;0;
+143;B 10 1178139;;1;1;0;0;
+144;B101097288;;4;3b;9;1;Unnötig lokalisiert, < 20 km wurde gewählt, sehr schwierig hier Land/Koordinaten festzustellen, da die Orte nicht oder nur unsicher gefunden werden, Uneinigkeit auch bei den Herbonauten. Diskussionshinweise vorhanden, Verweis auf andere Sammelnummber (208)  bezüglich Fundort/Standort, diese wäre hilfreich anzusehen, allerdings nicht auffindbar. Aus der Diskussion bin ich auf einen anderen Beleg gestoßen (Sammelnur. 222), der ähnlich ist und bei Fundort/Standort auf Sammelnr. 216 verweist. Zusätzlich gib es von 222 sogar 2 Fotos und auf beiden Fotos steht oben links mit Bleistift ein anderes Land: Tansania, Uganda. Wie kann ich hier wissen, was stimmt? Gibt es Sammelnr. 208 und 216 eventuell irgendwo zum Vergleichen? Beleg in JACQ macht zumindest Land/Region wahrscheinlicher  https://www.jacq.org/detail.php?ID=1192376
+145;B101199434;;1;1;0;0;
+146;B100429192;;1;1;0;0;
+147;B 10 1022648;;1;1;0;0;
+148;B101073094;;1;1;0;0;
+149;B 10 1065387;;1;1;0;0;
+150;B 10 1180619;;1;1;0;0;Hätte sehr genau lokalisiert werden können, da das alte Tauernhaus nur wenige Meter von der Hagener Hütte entfernt liegt, aber ist auf jeden Fall gut genug so. 47.02754150673747, 13.089433689707741
+151;B 10 1062880;;1;1;0;0;
+152;B 30 0316920;;2;2;7;0;Es fehlen so gut wie alle Informationen aus der Fundortbeschreibung.
+153;B 30 0316920;;11;8b;7;0;Vorrangfrage, erste Eingabe inkorrekt und validiert, zweite Eingabe ist korrekt
+154;B100013173;;2;2;3;0;Monat wurde falsch eingetragen – korrekt ist: 7. Dezember 1991
+155;B100013173;;9;7;2;0;Region ist aktuell „MG-6 Anosy“
+156;B 30 0318905;;9;7;2;0;Region ist aktuell „FR-GES Grand Est“
+157;B101126648;;1;1;0;0;
+158;B 10 1184532;;1;1;0;0;
+159;B 10 1028688;;9;7;2;0;Region ist aktuell „GR-L Südliche Ägäis (Nótio Aigaío)“
+160;B 30 0319419;;1;1;0;0;
+161;B 30 0316605;;13;10;7;0;Wiki: Habitatsbeschreibungen gehören mit in den Fundort. Habitatangabe unvollständig: Es wurde nur „Weide südl. T.“ übernommen, die Information, dass es eine Festuca rubra Weide ist, fehlt.
+162;B101023344;;1;1;0;0;
+163;B101128752;;1;1;0;0;
+164;B 10 0058831;;1;1;0;0;
+165;B 10 1176370;;1;1;0;0;
+166;B 10 0643077;;1;1;0;0;
+167;B 10 0069652;;1;1;0;0;
+168;B 10 1183066;;1;1;0;0;
+169;B 10 1180609;;1;1;0;0;
+170;B101213320;;13;10;4;1;Wiki: Ergänzungen, wie z.B. den kompletten Namen tragen Sie bitte NICHT in eckigen Klammern in das Feld, sondern nur in den Diskussionen ein 
+171;B101200834;;1;1;0;0;
+172;B 30 0317159;;1;1;0;0;
+173;B 10 0677225;;13;10;8;0;Wiki-Sonderregel nicht beachtet: „A. Peter, Reisen in Afrika 1913/16.“ in die Kategorie „Herbar von“ eintragen, da die Angaben für aktuelle Forschungen hohe Wichtigkeit besitzen
+174;B 10 0559369;;13;10;9;1;Wiki: Die Übertragung von Koordinaten von Institutionen (z.B. botanische Gärten) und auch privaten Gärten ist explizit nicht vorgesehen.
+175;B 10 1178494;;1;1;0;1;Diskussion gibt Aufschluss über die Probleme der Lokalisierung/Region
+176;B 30 0316088;;1;1;0;0;
+177;B 10 1183062;;1;1;0;1;
+178;B 30 0311429;;6;4;7;0;Landesname im Fundort überflüssig
+179;B 30 0311429;;8;6;7;0;Tippfehler: „dystroh“ statt „dystroph“ übertragen
+180;B 30 0311429;;9;7;2;0;Region ist aktuell „NO-34 Innlandet“ sein
+181;B 30 0311429;;11;8b;7;0;Vorrangfrage, erste Eingabe inkorrekt und validiert, zweite Eingabe ist korrekt
+182;B 10 1039482;;1;1;0;0;
+183;B101024509;;2;2;4;1;Sammler nicht eingetragen, trotz Diskussionshinweis auf den korrekten Sammler
+184;B101024509;;2;2;7;1;Es haben mehrere Herbonauten „hort“ als Fundort eingetragen, wobei es wahrscheinlich eher ein Hinweis auf eine kultivierte Pflanze ist (Herkunft ist Ost-Kanada und Ost-USA)
+185;B 10 1040188;;1;1;0;1;
+186;B 10 1161246;;1;1;0;1;
+187;B101125242;;1;1;0;0;
+188;B 30 0316332;;1;1;0;0;
+189;B 30 0317190;;1;1;0;0;
+190;B101126490;;1;1;0;0;
+191;B101212066;;1;1;0;0;
+192;B 10 0647754;;1;1;0;1;
+193;B101123754;;1;1;0;0;
+194;B 10 1025743;;7;5;2;1;Unentscheidbar, da sehr schwierig, fast unmöglich, die richtige Region herauszufinden, ebenso für die Herbonauten, siehe auch Diskussion dazu
+195;B 10 0761461;;13;10;9;0;Wiki: Die Übertragung von Koordinaten von Institutionen (z.B. botanische Gärten) und auch privaten Gärten ist explizit nicht vorgesehen.
+196;B101212777;;1;1;0;1;
+197;B 10 1064818;;1;1;0;1;
+198;B 10 1008266;;1;1;0;0;
+199;B 30 0316925;;1;1;0;0;Akzente in der Fundortbeschreibung fehlen, aber ohne große Auswirkungen
+200;B 30 0319800;;9;7;2;0;Region ist aktuell „FR-GES Grand Est“
+201;B101179016;;1;1;0;1;guter Hinweis in Diskussion: der Beleg ist in der falschen Mission
+202;B 30 0313468;;5;3c;9;0;Ungünstig lokalisiert, dadurch Konflikt mit Region, „Ich bin mir nicht sicher“ wurde gewählt, aber die gewählten Koordinaten liegen nicht in der Steiermark, sondern der Region Salzburg. Da der Lasaberg an der Grenze zur Steiermark liegt und die Salzwiesen in der Steiermark, wäre eine korrekte Setzung der Koordinaten möglich gewesen, siehe Validierungsproblem
+203;B 30 0313468;;10;8a;9;0;Widerspruch falsche Koordinaten, korrekte Region
+204;B 10 1027672;;13;10;4;0;Wiki: Ergänzungen, wie z.B. den kompletten Namen tragen Sie bitte NICHT in eckigen Klammern in das Feld, sondern nur in den Diskussionen ein, Beleg als Beispiel für Fehleranalyse (10/4): der Sammler Bothe ist sehr wahrscheinlich richtig abgeleitet, aber es fehlt eine Erklärung in der Diskussion, auf Etikett nichts angegeben, (über JACQ ist er zu finden und die Etiketten sind in der Tat immer sehr ähnlich, auch in der Liste der Unterschriften von Sammlern findet man Bothe)
+205;B101072616;;1;1;0;1;
+206;B 10 0544055;;1;1;0;0;
+207;B 10 1021276;;1;1;0;0;
+208;B 10 1178145;;9;7;2;0;Region ist aktuell „GR-C Westmakedonien (Dytikí Makedonía)“
+209;B 10 1178145;;13;10;4;0;Wiki: Ergänzungen, wie z.B. den kompletten Namen tragen Sie bitte NICHT in eckigen Klammern in das Feld, sondern nur in den Diskussionen ein 
+210;B 10 1025891;;1;1;0;0;
+211;B101129485;;1;1;0;0;
+212;B 10 1181000;;9;7;2;0;Region ist aktuell „GR-B Zentralmakedonien (Kentrikí Makedonía)“, Etikett: „Nom.Serres“ sollte dann mit in die Fundortbeschreibung
+213;B 10 1028220;;2;2;3;0;Jahr wurde falsch erkannt, korrekt: 1907, es gibt mehrere Belege, mit Etiketten gleicher Art, auf denen 1907 als Sammeljahr identifiziert wurde: https://www.jacq.org/detail.php?ID=1880729, https://www.jacq.org/detail.php?ID=1652942, https://science.mnhn.fr/institution/mnhn/collection/p/item/p04381352
+214;B 10 1028220;;9;7;2;0;Region ist aktuell „FR-OCC Occitanie“
+215;B 10 1180171;;1;1;0;0;
+216;B 30 0316387;;8;6;7;0;Tippfehler: „Laandkreis“ statt „Landkreis“ und „simpfig“ statt „sumpfig“
+217;B 30 0316387;;11;8b;7;0;Erste und einzige Eingabe fehlerhaft (mit 2 Schreibfehlern) wird validiert
+218;B101028708;;1;1;0;0;
+219;B 10 1177255;;3;3a;9;1;Falsch lokalisiert, siehe Diskussion, nur 1 Herbonaut begründet seine Geolokation in der Diskussion ausführlich, 2 mal wurden über 100 km entfernte Koordinaten gewählt und validiert, keine Begründung, keine Nachvollziehbarkeit. Da der Berg nicht auffindbar ist wäre auch „Der Beleg konnte nicht lokalisiert werden“ richtig oder zumindest eine ausführliche Begründung wie bei dem in der Diskussion erwähnten Beleg (B 10 1177254)
+220;B 10 0582316;;1;1;0;1;
+221;B101212523;;13;10;6;0;Wiki: Ergänzungen, wie z.B. den kompletten Namen tragen Sie bitte NICHT in eckigen Klammern in das Feld, sondern nur in den Diskussionen ein 
+222;B 10 1179777;;1;1;0;0;
+223;B 10 1028402;;13;10;7;0;Wiki: Habitatsbeschreibungen gehören mit in den Fundort. Hier fehlt fast die komplette Habitatsbeschreibung: „NW-exponierte steile Kalkfelsen mit ruhenden Grobschotternischen mit Quercus coccifera und Phlomis.“
+224;B 10 1028402;;3;3a;9;0;Falsch lokalisiert, Fundortbeschreibung nicht beachtet, statt 16 km westlich und bei Balandiz wurden Koordinaten 27 km nördlich von Silifke gewählt, dadurch 33 km von korrekt entfernt, 2 mal falsch, 1 Herbonaut richtig, korrekte Koordinaten: „36.35 , 33.73“
+225;B101125354;;1;1;0;0;richtig nach Etikett: Landolphia watsoniana Romburgh (korrekt) – nach IPNI und GBIF Landolphia watsoniana Rombouts – Fehler bei IPNI/GBIF, sollte gemeldet werden, festgestellt bei Recherche mit Dominik und Specht
+226;B 30 0314173;;13;10;7;0;Wiki: Habitatsbeschreibungen gehören mit in den Fundort. Teil der Fundortbeschreibung „Rand der Levada“ und Höhenangabe „900 m“ fehlen
+227;B 30 0314173;;11;8b;7;0;Vorrangfrage, erste Eingabe inkorrekt und validiert, zweite Eingabe ist korrekt
+228;B 10 1027538;;1;1;0;0;
+229;B 10 1040780;;2;2;4;0;Sammlername korrekt: „Orvar Isberg“, nicht „Arvar Isberg“, siehe auch:  https://herbonauten.bgbm.org/herbonautenwiki/uploads/herbonautenwiki/1/14/Sammler_Signaturen_GEP.pdf
+230;B 10 1065300;;1;1;0;0;
+231;B 30 0314008;;2;2;4;0;Sammlername korrekt: „Baumgartner“, nicht „Baumgärtner“, 100-Jahr-Fehler beim barcode Check korrekt
+232;B 10 1064620;;1;1;0;0;
+233;B100047297;;1;1;0;0;
+234;B 10 1021323;;8;6;7;0;Tippfehler: „Sanstone“ statt „Sandstone“
+235;B 10 1021323;;13;10;7;0;Wiki: Habitatsbeschreibungen gehören mit in den Fundort. Der Teil „in partially shaded crevices of outcrops“ fehlt
+236;B 30 0312373;;8;6;7;0;Tippfehler im Ortsname: „Walaschisch“ statt „Walachisch“
+237;B 30 0312373;;13;10;4;0;Wiki: Namenszusätze, Titel oder andere ergänzende Angaben werden in der Regel nicht zum Namen notiert (Prof. = Amtsbezeichnung), 100-Jahr-Fehler bei Barcode Check richtig
+238;B 30 0312373;;11;8b;7;0;Vorrangfrage, erste Eingabe inkorrekt und validiert, zweite Eingabe ist korrekt
+239;B101096264;;1;1;0;0;
+240;B 10 1178792;;2;2;2;0;Region sollte „BG-23 Sofia(София)“ sein, nicht „BG-13 Pazardzhik(Пазарджик)“
+241;B 10 1178792;;10;8a;2;0;Widerspruch falsche Region, korrekte Koordinaten
+242;B 30 0318935;;1;1;0;0;
+243;B100259747;;1;1;0;0;
+244;B 10 1180162;;1;1;0;0;
+245;B 30 0316170;;9;7;2;0;Region ist aktuell „GR-M Kreta (Kríti)“
+246;B 30 0311467;;3;3a;9;0;Falsch lokalisiert. Trogalm in Kärnten statt in Salzburg wurde lokalisiert, zwischen den falschen und richtigen Koordinaten liegen über 60km Luftlinie, korrekt: „47.12321, 13.65072“, Validierungsproblem zw. korrekter Region und Koordinaten
+247;B 30 0311467;;10;8a;9;0;Widerspruch falsche Koordinaten, korrekte Region
+248;B 30 0312024;;1;1;0;0;
+249;B101123647;;1;1;0;0;
+250;B 10 1026131;;1;1;0;1;
+251;B 10 1027349;;1;1;0;1;
+252;B 30 0312952;;9;7;2;0;Region ist aktuell „FR-NAQ Nouvelle-Aquitaine“
+253;B 30 0311889;;13;10;7;0;Wiki: Habitatsbeschreibungen gehören mit in den Fundort. Habitat „an Küstenfelsen“ fehlt
+254;B 30 0311889;;11;8b;7;0;Vorrangfrage, die ersten beiden Eingaben fehlerhaft (Habitat fehlt) und validiert, spätere Eingabe korrekt (Habitat vorhanden)
+255;B100766600;;1;1;0;0;
+256;B 10 1185052;;3;3a;9;0;Falsch lokalisiert, über 460km Abweichung vom beschriebenen Fundort, die Karte auf Beleg mit eingezeichnetem Fundort, die Beschreibung und die Suche nach Otjiwero führt zu korrekt: „-17.9164, 13.3903'', auch Validierungsproblem zw. Region und Koordinaten
+257;B 10 1185052;;10;8a;9;0;Widerspruch falsche Koordinaten, korrekte Region
+258;B 10 0013020;;1;1;0;0;
+259;B 10 1178384;;7;5;4;0;Unentscheidbar, Leitfadenlücke, Herbonauten haben prinzipiell richtig agiert, da im Wiki keine Anleitung für den Umgang mit Fragezeichen hinter Informationen vorliegt, hier Sammler und Datum betroffen, kein altes Etikett vorhanden, Antwort Herbar: „Datum und Sammler sind jeweils mit Fragezeichen aufzunehmen“
+260;B 10 1178384;;7;5;5;0;Unentscheidbar, Leitfadenlücke, Herbonauten haben prinzipiell richtig agiert, da im Wiki keine Anleitung für den Umgang mit Fragezeichen hinter Informationen vorliegt, hier Sammler und Datum betroffen, kein altes Etikett vorhanden, Antwort Herbar: „Datum und Sammler sind jeweils mit Fragezeichen aufzunehmen“
+261;B100650178;;1;1;0;1;
+262;B100010349;;7;5;4;0;Unentscheidbar, nichts über eine Person namens M. Welt zu finden, allerdings gibt es in JACQ zwei Belegen von M. Welten, gesammelt in der Schweiz 1968, Vincetoxikum
+263;B101129740;;7;5;9;0;Unentscheidbar, Leitfadenlücke, der Ort Baboua (Babua) liegt ca. 5km vom Fluss Mambéré entfernt (alles im Bereich von 1000m Höhe), allerdings sind die auf dem Etikett angegebenen Koordinaten 67km nördlich davon und 20km vom Fluss entfernt, das könnte auf Ungenauigkeiten bei der Bestimmung von Koordinaten damals hindeuten. Nach der Fundortbeschreibung erscheint Babua/Flussnähe/Galeriewald auch logischer. Dies hat auch ein Herbonaut so gesehen, allerdings haben zwei eben auch den nördlicheren Ort nach den Koordinaten auf dem Etikett genommen. Hier wäre die Frage, ob es eine Art Leitfaden braucht für solche Fälle, wo klar ist, dass die damalige Bestimmung der Koordinaten vielleicht etwas ungenau war?
+264;B 10 1064103;;2;2;6;0;Bestimmer korrekt: „ELL“ (= Elbert L. Little), wurde nicht eingetragen, steht eindeutig auf Etikett oben rechts
+265;B101071572;;4;3b;9;1;Unnötig lokalisiert, Geolokation nicht möglich, da zwei Orte auf Etikett, die weit auseinander liegen, siehe Diskussion und die Info, dass die meisten Herbonauten „mehrere Belege mit widersprüchlichen Angaben“ gewählt haben, korrekt: „Beleg kann nicht lokalisiert werden“
+266;B101071572;;11;8b;9;1;Vorrangfrage und Widerspruch, „Unbrauchbar – Mehrere Belege mit widersprüchlichen Angaben“ wurde 4 mal gewählt, 2 mal unnötig eingegebenen Koordinaten (und auch Fundort) werden dennoch validiert, (die anderen Kategorien stimmen, obwohl insgesamt „Unbrauchbar“ ausgereicht hätte)
+267;B 30 0318034;;1;1;0;0;Mittelwertbildung der Geokoordinaten führt dazu, dass sehr genaue Lokalisierung abgeschwächt wird, Validierungsproblem vielleicht
+268;B101213650;;1;1;0;0;
+269;B101212964;;1;1;0;0;
+270;B 10 1063277;;1;1;0;1;
+271;B 10 1040750;;1;1;0;1;
+272;B 10 0528481;;1;1;0;1;bei Google Maps liegen die Koordinaten 500m von der Grenze der Region entfernt in einer anderen Region, auf OpenTopo liegt es in der richtigen Region
+273;B100704513;;1;1;0;0;
+274;B101212083;;1;1;0;1;Vorzeigediskussion
+275;B 10 1175959;;1;1;0;0;
+276;B101212877;;1;1;0;0;
+277;B 10 1181056;;9;7;2;0;Region ist aktuell „GR-C Westmakedonien (Dytikí Makedonía)“
+278;B 30 0317906;;2;2;4;0;Sammlername korrekt: „Muhle“ (= Hermann Muhle), nicht „Mühle“
+279;B 30 0317906;;9;7;2;0;Region ist aktuell „FR-GES Grand Est“
+280;B 30 0313949;;1;1;0;0;
+281;B100648868;;1;1;0;0;
+282;B 10 1177795;;3;3a;9;0;Falsch lokalisiert, die Koordinaten liegen 450km Luftlinie von Mt. Omei = Emei Mountain entfernt und nicht in der angegebenen Region. korrekt, Mt. Omei: „29.52287, 103.33626“
+283;B 10 1177795;;10;8a;9;0;Widerspruch falsche Koordinaten, korrekte Region
+284;B 10 1021421;;2;2;4;0;Sammlername korrekt: „Magalhães“ (= Alberto Augusto de Magalhães Gomes), eindeutig auf Etikett, wurde nur einmal eingetragen
+285;B 10 1021421;;13;10;7;0;Wiki: Habitatsbeschreibungen gehören mit in den Fundort. Habitat „Ofloramento de rocha„ (= Felsvorsprung) fehlt
+286;B 10 1021421;;13;10;8;0;Wiki: Institutionelles Herbar ist angegeben, Sammler/in ist angegeben/ nicht angegeben -> Kein Eintrag im Feld „Herbar von“ 
+287;B 10 0520548;;1;1;0;0;
+288;B101123098;;1;1;0;0;
+289;B 10 1028157;;2;2;2;0;Region sollte entweder „AL-KA Kavajë“ (die Gemeinde ) oder bevorzugt seit 2000 „AL-TR Tiranë“ (die Präfektur/Qark) sein, nicht „AL-DR Durrës“
+290;B 10 1028157;;10;8a;2;0;Widerspruch falsche Region, korrekte Koordinaten
+291;B 30 0312156;;7;5;3;0;"Unentscheidbar, Jahr wahrscheinlich falsch, denn 1808 ist wohl eher eine Sammelnummer als das Jahr, da Sammler Hampe um 1808 gerade mal 13 Jahre alt war, Herbar Antwort:  „Schwierig, kann auch mit 13 schon gesammelt haben. Dass die Sammelnummer hinter dem Namen steht ist, glaube ich, erst in den letzten Jahrzehnten ""meist"" der Fall. Um sicher zu gehen, müßte man sich andere Belege ""von Hampe gesammelt"" anschauen bzw.  sich mit seiner Biografie näher beschäftigen.“ ,Fazit: es gibt so gut wie keine Belege von Hampe mit Datum und Jahr, außerdem das junge Alter nach Recherche bei Wikipedia hat er sich erst später mit dem Harz befasst: „1825 übernahm Hampe die örtliche Apotheke in Blankenburg, die er bis 1864 leitete. Während seiner Zeit in Blankenburg beschäftigte er sich vorwiegend mit dem Sammeln von Pflanzendrogen und der Harzflora.“ "
+292;B101212609;;1;1;0;0;
+293;B 30 0314368;;9;7;2;0;Region ist aktuell „IT-34 Veneto“
+294;B 30 0314368;;13;10;6;0;Wiki: Ergänzungen, wie z.B. den kompletten Namen tragen Sie bitte NICHT in eckigen Klammern in das Feld, sondern nur in den Diskussionen ein
+295;B 30 0314368;;11;8b;6;0;Vorrangfrage, erste Eingabe inkorrekt und validiert, zweite Eingabe ist korrekt (ohne die Ergänzung in eckigen Klammern)
+296;B 30 0316281;;9;7;2;0;Region ist aktuell „IT-88 Sardegna“
+297;B 30 0316281;;13;10;7;0;Wiki: Habitatsbeschreibungen gehören mit in den Fundort. Habitat „Juniperus Restbestände inmitten von Weideflächen, epiphytisch“ fehlt
+298;B 10 1174041;;1;1;0;0;
+299;B101125174;;1;1;0;0;
+300;B 30 0316622;;9;7;2;0;Region ist aktuell „FR-GES Grand Est“
+301;B101073256;;8;6;7;0;Tippfehler im Flussname: „Botlete“statt „Botletle“ [=Boteti River]
+302;B 10 1039016;;1;1;0;0;
+303;B 10 1067224;;1;1;0;1;
+304;B101125072;;1;1;0;0;
+305;B101122870;;1;1;0;0;
+306;B101123744;;1;1;0;1;
+307;B 10 1026003;;1;1;0;1;
+308;B 10 1064137;;1;1;0;0;
+309;B101027944;;1;1;0;1;
+310;B 10 1176433;;1;1;0;0;
+311;B100776031;;1;1;0;0;
+312;B 30 0319762;;1;1;0;0;
+313;B 10 0754848;;1;1;0;0;
+314;B 10 0046547;;1;1;0;1;Der Hinweis bei der Diskussion ist korrekt. Man hätte die Koordinaten des angegebenen Berges (13km entfernt von der Etikettenangabe) notieren können, da er eindeutig zu finden ist, dann würde auch die Höhenangabe stimmen.
+315;B 10 1184983;;1;1;0;1;Die in der Diskussion angegebenen Koordinaten sind verwirrend, die validierten sind halbwegs korrekt. Ganz genau liegt die Farm hier: S 28° 54′ 55'' E 30° 26′ 33'', siehe Link: https://www.geonames.org/960572/roode-bok-vlakte.html 
+316;B 30 0316873;;9;7;2;0;Region ist aktuell „FI-14 Pohjois-Pohjanmaa“ (die gewählte Region ist veraltet, aber war auch falsch!)
+317;B 10 1040789;;1;1;0;0;
+318;B101127230;;1;1;0;0;
+319;B101125320;;1;1;0;0;
+320;B 30 0314620;;1;1;0;0;
+321;B101125235;;1;1;0;0;
+322;B 10 1183209;;13;10;4;1;Wiki: Ergänzungen, wie z.B. den kompletten Namen tragen Sie bitte NICHT in eckigen Klammern in das Feld, sondern nur in den Diskussionen ein 
+323;B100531380;;1;1;0;0;
+324;B101071577;;1;1;0;1;
+325;B101199955;;1;1;0;0;
+326;B101200212;;2;2;3;0;Tag und Monat falsch eingetragen, korrekt: 7. Juli 1922 sein, siehe auch folgender Beleg zu Bornmüller am selben Datum: https://www.jacq.org/detail.php?ID=1727933
+327;B101199450;;1;1;0;1;
+328;B 30 0313516;;1;1;0;0;
+329;B101200057;;1;1;0;0;
+330;B 10 1028282;;1;1;0;0;
+331;B 10 1175887;;1;1;0;0;
+332;B 10 1183174;;4;3b;9;1;Unnötig lokalisiert, Geolokation nicht möglich, sowohl Farm Elmeston als auch Vaalswater lassen sich gut lokalisieren, dazwischen liegen um die 70 km, die eingegebenen Koordinaten liegen auch nicht auf der Strecke zwischen den beiden Orten, trotz Hinweis in der Diskussion, (https://mapcarta.com/14357196), außerdem Genaugikeit <5 km ist fragwürdig, korrekt: „Beleg kann nicht lokalisiert werden“
+333;B 10 1179518;;1;1;0;0;Willdenowia-Artikel zum Herbar von Berg könnte man im Wiki mit aufnehmen, da Hinweise auf Fundorte, die auf den Etiketten schlecht lesbar sind. Siehe E-Mail R. Vogt 18.5.2024
+334;B 10 1181977;;1;1;0;0;
+335;B 10 1183898;;13;10;7;0;Wiki: Handelt es sich um eine kultivierte Pflanze, geben Sie zusätzlich zum Fundort der kultivierten Pflanze, falls auf dem Etikett vorhanden, den Fundort, Sammler*in und Sammeldatum der Wildherkunft in eckigen Klammern mit [Wildherkunft:] an. Richtig wäre also [Wildherkunft: Siam, Hosseus, 1906] Nicht: h. Dahlem. Heimat: Siam (Hosseus 1906)
+336;B 10 0643688;;1;1;0;0;
+337;B 10 1178616;;6;4;7;0;Etikettentitel „Flora Hispanica“ und Region „Prov. Teruel“ im Fundort überflüssig 
+338;B 30 0313732;;9;7;2;0;Region ist aktuell „FR-GES Grand Est“
+339;B 30 0312640;;1;1;0;0;
+340;B101199421;;4;3b;9;0;Unnötig lokalisiert, < 20 km gewählt, nicht besser möglich, Koordinaten nicht nachvollziehen, auch nach ausführlicher Recherche nicht, die Südseite des Gebirges ist lang und Dschanarttal nicht auffindbar
+341;B100013065;;1;1;0;0;
+342;B 10 1026558;;2;2;7;0;Teil des Textes „silvas formans“ (bilden Wälder) wurde falsch entziffert, als „silas formaus“, und ist dazu wahrscheinlich überflüssig im Fundort
+343;B 10 1006681;;1;1;0;1;Vorzeigediskussion
+344;B101196831;;1;1;0;1;
+345;B 10 1027802;;1;1;0;0;
+346;B 10 0310390;;9;7;2;1;Region ist aktuell „GR-I Attika (Attikí)“, wie auch in der Diskussion beschrieben
+347;B101212483;;1;1;0;0;
+348;B 10 1027258;;1;1;0;0;
+349;B 10 1064635;;14;11;9;0;Externer Ressourcenfehler: die Grenzverläufe von der Region Independencia sind unterschiedlich, in OpenTopo liegen die gewählten Koordinaten in der falschen Region, bei Google Maps in der richtigen, Herbonauten haben die Koordinaten vom Etikett korrekt übertragen, Validierung zwischen Region und Koordinaten hätte hier zwar warnen können, jedoch ist das Problem der unterschiedlichen Grenzverläufe nicht von uns lösbar
+350;B 10 0424356;;2;2;4;0;Sammler unvollständig, „Flauger, G.“ fehlt
+351;B101066379;;1;1;0;1;
+352;B100548135;;4;3b;9;1;Unnötig lokalisiert, zu widersprüchliche Angaben, Fundortbeschreibung nicht gut beachtet, die Quellen des Flusses liegen laut Wikipedia hier: „65.206785, 147.72289“, von 2 Herbonauten wurde das Mündungsgebiet des Flusses 150km Luftlinie entfernt geolokalisiert. Alle anderen haben sich zurückgehalten und nur eine Region (die, wo auch das Gebirge liegt) eingetragen. In der Diskussion gibt es einen Hinweis darauf, dass die Koordinaten im Quellgebiet liegen sollten, auf dem Etikett wird dies auch angegeben.  Allerdings würde die Flussquelle mit der Region nicht passen. Die ausgewählte Region passt zum Gebirge, aber nicht zum Fluss (weder Mündung noch Quelle), zu widersprüchlich, deshalb eher keine Koordinaten auswählen bzw. eine Diskussion darüber starten. Auch Validierungsproblem zwischen Region und Koordinaten.
+353;B100548135;;10;8a;9;1;Widerspruch falsche Koordinaten, korrekte Region
+354;B 10 0194332;;1;1;0;0;
+355;B101027987;;2;2;4;0;Sammlername korrekt: „keine Information“, da nicht auf Beleg, es wurde der Übersender als Sammler eingetragen. Dazu Antwort Herbar: Der JACQ-Eintrag wäre unter voucher: photo, unter locality: Cultivated in South Africa, KwaZulu-Natal, Durban, unter collector: unknown, date: s.d., coll. number: s.n. 
+356;B101096531;;2;2;2;1;Region sollte nicht gewählt werden, unentscheidbar, „TZ-01 Arusha“ oder „TZ-26 Manyara“ oder sollte gut begründet werden, aber auf keinen Fall ist es die mehrfach eingegebene Region „TZ-25 Tanga“, die man sonst von A.Peter‘s Reisen kennt. Trotz aufschlussreiche Diskussion, bleibt Region falsch. Die Maasai Steppe ist Teil mehrerer Regionen Tanzanias (Arusha und Manyara), an deren Grenze sich auch der Fluss Kikuletwa befindet. Links: https://www.awf.org/where-we-work/maasai-steppe, https://mapcarta.com/12660766, siehe auch Diskussion unter den Herbonauten.
+357;B 10 0029202;;13;10;8;1;Wiki: Institutionelles Herbar ist angegeben, Sammler/in ist angegeben/ nicht angegeben -> Kein Eintrag im Feld „Herbar von“ 
+358;B 10 0029202;;3;3a;9;1;Fehlerhaft übertragen, Long und Lat vertauscht, Koordinaten zeigen dadurch auf falsches Land, siehe Validierungsproblem
+359;B 10 0029202;;10;8a;9;1;Widerspruch falsche Koordinaten, korrekte Region und korrektes Land (siehe auch 2. Validierungsproblem)
+360;B 10 0029202;;11;8b;9;1;Mehrheitsproblem und Vorrangfrage, die Ersteingabe Koordinaten war korrekt, dennoch wurden die danach mehrfach falschen Koordinaten (Lat/Long vertauscht)validiert, siehe dazu im Gegensatz B101071297
+361;B 10 1175480;;1;1;0;1;
+362;B 10 0013441;;1;1;0;1;wie ein Straßenbaum zu behandeln, also eine Pflanze, die offenbar kultiviert ist, in Nairobi in der Stadt steht, aber ursprünglich eben aus Amerika stammt
+363;B 10 0557789;;2;2;4;0;Sammler zu viel eingetragen, korrekt: „J. Četina“, Erläuterung: „comm. L. Derganc“ deutet darauf hin, dass dieser mitgeteilt/übergeben/überbracht hat (siehe Wiki), aber i.d.R. ist nicht der Sammler ist, dieser ist hier explicit mit „leg.“ gekennzeichnet, zusätzlich „L. Derganc“ falsch geschrieben
+364;B100010898;;1;1;0;0;
+365;B101200021;;1;1;0;0;
+366;B101122318;;1;1;0;1;
+367;B 30 0310369;;6;4;7;0;Land im Fundort überflüssig
+368;B 30 0310369;;9;7;2;0;Region ist aktuell „FR-GES Grand Est“
+369;B 30 0310369;;11;8b;7;0;Vorrangfrage, erste Eingabe inkorrekt und validiert, zweite Eingabe ist korrekter (Text entziffert, keine Fragezeichen und Klammern)
+370;B100161687;;1;1;0;0;
+371;B 10 1062775;;13;10;9;0;Wiki: Die Übertragung von Koordinaten von Institutionen (z.B. botanische Gärten) und auch privaten Gärten ist explizit nicht vorgesehen.
+372;B 10 1161242;;9;7;2;1;Region ist aktuell „CD-HK  Haut-Katanga“
+373;B 10 1161242;;3;3a;9;1;Nicht lokalisiert, obwohl der Ort sehr einfach bei Google Maps zu finden ist, eine Person hat dies auch gemacht, Korrekt: „-10.5112, 27.5447“
+374;B 10 1161242;;11;8b;9;1;Mehrheitsproblem, „Beleg kann nicht lokalisiert werden“ mehrfach gewählt, nur 1 mal korrekt gefundene Koordinaten werden nicht validiert
+375;B101072246;;1;1;0;0;
+376;B101200032;;1;1;0;0;
+377;B 30 0317344;;1;1;0;0;
+378;B101213570;;1;1;0;0;
+379;B101126737;;1;1;0;0;
+380;B 10 1068686;;1;1;0;0;
+381;B109008957;;1;1;0;0;
+382;B 10 1064003;;1;1;0;0;
+383;B101200518;;2;2;5;0;Herbarnummer als Sammelnummer eingetragen, korrekte Sammelnummer ist „2631“
+384;B101200518;;14;11;10;0;Externer Ressourcenfehler: doppelte/inkorrekte Einträge in der Quellliste, wahrscheinlich ist „Alnus hirsuta (Spach) Rupr.“ der richtige Name, aber „Alnus hirsuta Turcz.“ steht auch zur Auswahl
+385;B 30 0313213;;9;7;2;0;Region ist aktuell „FR-BFC Bourgogne-Franche-Comté“
+386;B101199731;;13;10;4;1;Wiki: Ergänzungen, wie z.B. den kompletten Namen tragen Sie bitte NICHT in eckigen Klammern in das Feld, sondern nur in den Diskussionen ein
+387;B101213057;;1;1;0;0;
+388;B 30 0319487;;1;1;0;0;
+389;B101196766;;1;1;0;0;
+390;B 10 1183205;;1;1;0;0;
+391;B101072100;;1;1;0;1;OFFENE FRAGE – korrekte Eingabe, aber Frage ergibt sich aus Diskussion: Handschrift und Land erkannt, sollte man das eingeben oder egal bei unbrauchbaren Belegen? Antwort Herbar: „Dinter, Namibia kommt hin, sollte in [] angegeben werden, weil es Interpretation ist und nicht auf dem Beleg steht“, WIDERSPRUCH: laut Wiki keine eckigen Klammern bei Sammler, etc. - wohin dann mit dieser Information? Muss das im Wiki nochmal klarer gemacht werden und was nützen eckige Klammern in der Diskussion, wenn sie am Ende keine Beachtung findet?
+392;B101200456;;1;1;0;0;
+393;B 30 0314634;;13;10;7;0;Wiki: Habitatsbeschreibungen gehören mit in den Fundort. Habitat „Taludes sobre granitos“ fehlt im Fundort, schönes Beispiel für Blödsinn, siehe Fundort-Geolok: man leitet was mit Käseladen aus falsch gelesenem Fundort ab
+394;B 10 0752915;;13;10;4;0;Wiki: Ergänzungen, wie z.B. den kompletten Namen tragen Sie bitte NICHT in eckigen Klammern in das Feld, sondern nur in den Diskussionen ein
+395;B 10 1067494;;1;1;0;1;
+396;B101097011;;1;1;0;0;
+397;B 10 0432416;;1;1;0;0;
+398;B 30 0310100;;1;1;0;0;100-Jahr-Fehler beim barcode Check korrekt
+399;B100013080;;9;7;2;0;Region ist aktuell „MG-6 Anosy“
+400;B 30 0318641;;1;1;0;0;100-Jahr-Fehler beim barcode Check korrekt
+401;B 10 1178133;;2;2;2;0;Region falsch, korrekt: „GR-B Zentralmakedonien (Kentrikí Makedonía)“ (existier seit 1986 und ist seit 2019 im System, Beleg wurde 2020 bearbeitet, Willing hatte Kilkis notiert, das ist eine Verwaltungsebene darunter)
+402;B 30 0317246;;1;1;0;0;
+403;B 10 1021802;;13;10;8;0;Wiki: Institutionelles Herbar ist angegeben, Sammler/in ist angegeben/ nicht angegeben -> Kein Eintrag im Feld „Herbar von“, Herbarium Anchieta wurde 1932 im Colégio Anchieta, Porto Alegre, RS, von Balduíno Rambo gegründet, daher das Akronym PACA (Porto Alegre, Colégio Anchieta). Derzeit ist er am Anchietano Research Institute/UNISINOS, São Leopoldo, RS.
+404;B 10 1176418;;1;1;0;1;
+405;B 10 1022984;;1;1;0;0;
+406;B 10 1039155;;12;9;7;0;Im Fundort taucht mitten im Text ein Begriff in spitzen Klammern auf: „<oriensis>“,  obwohl in keinem Beitrag diese Eingabe gemacht wurde (auch im original CSV der validen Antworten nicht vorhanden)
+407;B 10 1025745;;7;5;9;0;Unentscheidbar, Leitfadenlücke Straßenbaum, die Art ist in Nordamerika heimisch, somit offenbar kultiviert (Fundort Schlossplatz Karlsruhe), Koordinatenangabe ist okay, aber „cult.“ hätte ausgewählt werden müssen, auch wenn es nicht auf dem Etikett steht, Hinweis sollte ins Wiki
+408;B 10 0121067;;9;7;2;0;Region ist aktuell „CD-LU  Lualaba“
+409;B 10 1183569;;9;7;2;0;Region ist aktuell „Western Region“
+410;B 30 0313217;;1;1;0;0;
+411;B 10 1062819;;1;1;0;0;
+412;B100778425;;1;1;0;0;
+413;B 10 1064369;;1;1;0;1;Beispiel für hilfreiche Diskussion bezüglich Geolokalisierung
+414;B 10 1026297;;1;1;0;0;
+415;B 30 0311949;;1;1;0;0;
+416;B 10 1064914;;1;1;0;0;Hinweis im Fundort auf „(flora von Trabezunt)“ wurde nur teilweise erkannt, Nichteingabefehler – Diskussion wäre hilfreich gewesen
+417;B 30 0313623;;1;1;0;0;
+418;B 30 0319572;;9;7;2;0;Region ist aktuell„FR-OCC Occitanie“
+419;B 10 0095452;;2;2;7;0;Teil des Fundorts falsch und unlogisch: „nördl. von Abessinien“, korrekt: „Hochland v. Abessinien“, in JACQ gibt es weitere Belege vom selben Datum, die dies bezeugen. Nördlich von Abessinien lag die damals italienische Kolonie Eritrea, Morton hat jedoch in Äthiopien gesammelt.
+420;B 10 0095452;;7;5;5;0;Unentscheidbar, ob Sammelnummer hätte eingetragen werden müssen und ob 4930 eine ist, vergleiche JACQ (https://www.jacq.org/detail.php?ID=1574727), Antwort Herbar: „Würde ich hinterfragen, ob das die Sammelnummer ist. Müßte man sich näher mit dem Herbar der Botanischen Station in Hallstatt bzw. mit Friedrich Morton beschäftigen, 4930 ist nachträglich gestempelt, könnte auch eine Herbarnummer von F. Morton und /oder eine Herbarnummer der Station in Hallstatt sein. Würde im Zweifelsfall in JACQ im Feld annotation die Angabe hinterlegen: Aufnahme-Nr. 4930“
+421;B 10 1066888;;2;2;3;0;Sammeldatum wurde nicht erkannt, korrekt: 5. Januar 1962, Datum steht eindeutig auf Etikett (d.d. = de dato = vom Datum: 5. Januar) und Jahr lässt sich aus Titel ableiten (1962)
+422;B 30 0311638;;8;6;7;0;Tippfehler „n“ hinter Angabe in Klammern zu viel
+423;B 30 0311638;;11;8b;7;0;Vorrangfrage, erste Eingabe inkorrekt und validiert, zweite Eingabe ist korrekt
+424;B 30 0310440;;9;7;2;0;Region ist aktuell „FR-BFC Bourgogne-Franche-Comté“
+425;B 10 1023151;;1;1;0;0;
+426;B 10 0293072;;2;2;5;0;Sammelnummer fehlt, steht sehr wahrscheinlich auf dem kleinen Schild direkt an der Pflanze („52“) – Vergleich mit JACQ legt dies nahe (Schwab, selbes Datum, Sammelnr. 47): https://image.bgbm.org/images/internal/HerbarThumbs/B101202930_1700
+427;B 10 0482797;;1;1;0;0;
+428;B 10 1005369;;1;1;0;0;
+429;B 10 1040269;;1;1;0;0;
+430;B 30 0314591;;8;6;7;0;Text verrutscht, sodass Bergname nicht mehr lesbar ist
+431;B 30 0314591;;11;8b;7;0;Vorrangfrage, erste Eingabe inkorrekt und validiert, zweite Eingabe ist korrekt
+432;B 10 1179476;;3;3a;9;1;Falsch lokalisiert, ehemaliges Zipser Comitat liegt weiter westlich, ebenso die Belaer Alpen (mind. 50 km, eher 70 km), ein Herbonaut hat es richtiger und auch in Diskussion erläutert, wie er darauf kam
+433;B101199690;;1;1;0;0;
+434;B101042132;;1;1;0;0;
+435;B101199087;;13;10;4;1;Wiki: Ergänzungen, wie z.B. den kompletten Namen tragen Sie bitte NICHT in eckigen Klammern in das Feld, sondern nur in den Diskussionen ein, Beleg als Beispiel für Fehleranalyse (10/4): Ulleptisch, steht nicht als Sammler auf dem Etikett, aber mit JACQ und der Anmerkung von Wagner auf dem Beleg, ist es ziemlich klar der Sammler, Kästchen „das habe ich abgeleitet“ wäre hilfreich
+436;B101122477;;2;2;7;0;Falsche Eingabe einer Wildherkunft im Fundort, da nur die Heimat der Pflanze auf dem Etikett erwähnt wird, aber nichts über die ursprüngliche Aufsammlung (von wem, wann, wo).
+437;B101122477;;5;3c;9;0;Ungenau lokalisiert, mit < 20 km obwohl die Fundortbeschreibung eine sehr genaue Lokalisierung zulässt, 10 km von korrekt entfernt, von 1 Person korrekt lokalisiert, aber siehe Validierungsproblem 
+438;B101122477;;11;8b;9;0;Vorrangfrage, erste Eingabe ungenau und validiert (trotz <20 km Angabe), korrektere Koordinaten später eingegeben (mit <1 km Ungenauigkeitsradius)
+439;B 10 1178346;;9;7;2;0;Region ist aktuell „FR-ARA Auvergne-Rhône-Alpes“
+440;B 10 1181531;;1;1;0;0;
+441;B100680518;;1;1;0;0;
+442;B 10 1023081;;1;1;0;0;
+443;B 10 0213434;;1;1;0;0;
+444;B 10 0048863;;2;2;3;0;Tag wurde falsch eingegeben, korrekt: Spanne 1. August – 31. August 1993
+445;B 10 1062705;;1;1;0;0;
+446;B101123019;;7;5;2;1;Unentscheidbar, da Etikett widersprüchlich, Karibib liegt in der Region Erongo, näher am Rand der Namib (Namibrand), Otjosondu in der Region Otjozondjupa, auch nach intensiver Recherche lässt sich nicht klar feststellen, was Seydel hier meint (gbif, JACQ), siehe auch „B 10 1185813“ 
+447;B101123019;;4;3b;9;1;Unnötig lokalisiert, da widersprüchliche Etikettenangaben zum Fundort (Region unentscheidbar), zwischen Karibib und Otjosondu liegen Luftlinie 100 km
+448;B101213052;;1;1;0;0;
+449;B101212118;;1;1;0;0;Frage zu Bleistiftnotizen von Herbarseite am Rande, (hier: CSSR – anderes Land als von den Herbonauten eingetragen) ist von Herbarseite beim Inserieren aufgebracht, heißt nicht, dass hier tiefere Kenntnis oder Recherche vorlag, deshalb besser Polen nehmen, da die Herbonauten sehr gut recherchieren (aus AntwortenFragenHerbar4.xlsx)
+450;B 10 1183555;;3;3a;9;0;Fehlerhaft übertragene Latitude, von daher ist die Lokalisierung ca. 120km vom eigentlich beschriebenen Fundort entfernt. Auf dem Etikett steht es zweimal ähnlich (2°37‘N bzw. 2°40‘N) und übertragen wurde 3.66, obwohl auch die textuelle Beschreibung mit „SSW of …“ Hinweise gibt. Die Korrekten Korrdinaten sind: 02.61667°, 040.88333°
+451;B 10 1064889;;7;5;3;1;Unentscheidbar, da berechtigte Zweifel am Sammelmonat, die in der Diskussion erörtert werden, gutes Beispiel für Diskussion und Umgang mit Unsicherheiten
+452;B 10 1178919;;1;1;0;1;
+453;B 30 0318350;;9;7;2;0;Region ist aktuell„FR-OCC Occitanie“
+454;B101040297;;1;1;0;0;
+455;B 10 1027537;;1;1;0;0;
+456;B101125427;;13;10;6;0;Wiki: Ergänzungen, wie z.B. den kompletten Namen tragen Sie bitte NICHT in eckigen Klammern in das Feld, sondern nur in den Diskussionen ein
+457;B101212670;;1;1;0;1;
+458;B 10 1027233;;8;6;7;0;Tippfehler in der Lagebeschreibung: „0,3 m“ statt „0,3 km“
+459;B 10 1183919;;2;2;4;0;Sammler unvollständig, „T. Leyens“ fehlt
+460;B 10 1183919;;2;2;5;0;Sammelnummer falsch, korrekt: „2663“, nicht „2662“
+461;B 10 0413572;;2;2;7;0;Das Wort „Bucht“ in der Fundortangabe vergessen.
+462;B 10 0413572;;6;4;7;0;Land und Region im Fundort überflüssig
+463;B 10 1179644;;7;5;4;0;Unentscheidbar, da Schrift sehr schwer lesbar und Sammler für mich auch nach intensiver Recherche nicht identifizierbar, keine Diskussion trotz 11 beteiligter Herbonauten, Angabe „Ich bin mir nicht sicher“ wurde mehrfach genutzt
+464;B 30 0313901;;13;10;4;0;Wiki: Namenszusätze, Titel oder andere ergänzende Angaben werden in der Regel nicht zum Namen notiert (Prof. = Amtsbezeichnung)
+465;B 10 1065391;;1;1;0;0;
+466;B 10 1023237;;1;1;0;0;Sample ist Beispiel für die Frage nach einer Veränderung/Anleitung für Foto-Belege in JACQ, siehe Voucher_ID B101027987
+467;B101213074;;1;1;0;0;
+468;B101196840;;1;1;0;0;
+469;B101073031;;1;1;0;0;
+470;B 10 0021968;;1;1;0;0;
+471;B101200075;;4;3b;9;0;Unnötig lokalisiert, korrekt wäre „Beleg kann nicht lokalisiert werder“, denn die Angabe „Berlin, in Gärten“ lässt keine sinnvolle Geolokalisierung zu, siehe auch AntwortenFragenHerbar4.xlsx
+472;B101091218;;1;1;0;1;
+473;B 30 0316487;;2;2;2;0;Region sollte „GB-HLD Highland“ sein, nicht „GB-AGB Argyll and Bute“
+474;B 30 0316487;;13;10;7;0;Wiki: Habitatsbeschreibungen gehören mit in den Fundort. Der Teil „Basaltklippen und Heidemoore“ fehlt im Fundort.
+475;B 30 0316487;;10;8a;2;0;Widerspruch falsche Region, korrekte Koordinaten
+476;B 30 0316487;;11;8b;7;0;Vorrangfrage, die ersten beiden Eingaben sind unterschiedlich und unvollständig, die erste wurde validiert, die dritte Eingabe ist korrekt
+477;B 10 1176589;;1;1;0;1;
+478;B 10 1025562;;1;1;0;1;
+479;B 10 0611296;;2;2;7;0;Ein Wortteil nicht übertragen, eingetragen wurde: „auf Kalkstein nächst …“ statt korrekt: „auf Kalksteinfelsen nächst …“.
+480;B 30 0316463;;1;1;0;0;
+481;B 10 1039252;;1;1;0;0;
+482;B 10 1021286;;13;10;8;0;Wiki: Institutionelles Herbar ist angegeben, Sammler/in ist angegeben/ nicht angegeben -> Kein Eintrag im Feld „Herbar von“
+483;B 10 0603464;;13;10;8;0;Wiki: Institutionelles Herbar ist angegeben, Sammler/in ist angegeben/ nicht angegeben -> Kein Eintrag im Feld „Herbar von“
+484;B 10 1186708;;13;10;9;0;Wiki: Die Übertragung von Koordinaten von Institutionen (z.B. botanische Gärten) und auch privaten Gärten ist explizit nicht vorgesehen.
+485;B101071247;;13;10;4;1;Wiki: - Ergänzungen, wie z.B. den kompletten Namen tragen Sie bitte NICHT in eckigen Klammern in das Feld, sondern nur in den Diskussionen ein
+486;B101125006;;1;1;0;1;
+487;B101071534;;1;1;0;1;
+488;B 10 1028660;;1;1;0;0;
+489;B 10 0675088;;13;10;8;0;Wiki-Sonderregel nicht beachtet: „A. Peter, Reisen in Afrika 1913/16.“ in die Kategorie „Herbar von“ eintragen, da die Angaben für aktuelle Forschungen hohe Wichtigkeit besitzen
+490;B 10 1062962;;1;1;0;1;
+491;B 10 1180320;;1;1;0;0;
+492;B 30 0314496;;1;1;0;0;
+493;B 10 1176137;;1;1;0;0;
+494;B101072602;;1;1;0;1;
+495;B 30 0317523;;6;4;7;0;Etikettentitel „Moosflora von Deutschland“ und Region „Rheinland-Pfalz“ im Fundort überflüssig
+496;B 30 0317523;;11;8b;7;0;Vorrangfrage, erste Eingabe inkorrekt und validiert, zweite Eingabe ist korrekt
+497;B 10 1066539;;1;1;0;0;
+498;B101128012;;1;1;0;0;
+499;B100663575;;2;2;5;0;Sammelnummer falsch, korrekt: „keine Information“, vgl. andere Belege von A. Ludwig in JACQ und siehe AntwortenFragenHerbar4.xlsx
+500;B 10 1177866;;1;1;0;0;Trödelsteine liegen sehr nah an Grenze zu NRW, sind aber eigentlich in Rheinland-Pfalz, Koord. in NRW gesetzt, gut
+501;B 10 1064291;;1;1;0;1;gutes Beispiel für schöne und hilfreiche Diskussion
+502;B 10 1180732;;1;1;0;1;
+503;B101091250;;1;1;0;0;
+504;B 10 1183720;;1;1;0;0;
+505;B 30 0318473;;8;6;7;0;Tippfehler Landschaft: „Warner Heide“ statt „Wahner Heide“
+506;B101096907;;1;1;0;0;
+507;B101223435;;1;1;0;0;
+508;B 30 0311375;;13;10;7;0;Wiki: Habitatsbeschreibungen gehören mit in den Fundort. Habitatsbeschreibung „Erica azorica-Vaccinium cylindraceum-Heide Höhe 1200 m“ fehlt im Fundort
+509;B 30 0311375;;11;8b;7;0;Vorrangfrage, erste Eingabe inkorrekt und validiert, zweite Eingabe ist korrekt
+510;B100704492;;2;2;5;0;Sammelnummer falsch, korrekt: „keine Information“, vgl. andere Belege von A. Ludwig in JACQ und siehe AntwortenFragenHerbar4.xlsx 
+511;B 30 0318894;;1;1;0;0;
+512;B 30 0316151;;6;4;7;0;Landesname im Fundort überflüssig
+513;B 30 0316151;;13;10;7;0;Wiki: Habitatsbeschreibungen gehören mit in den Fundort. Habitat „an Tilia“ fehlt im Fundort, wichtig, denn es geht um Moos
+514;B 30 0316151;;11;8b;7;0;Vorrangfrage, erste Eingabe inkorrekt und validiert, zweite Eingabe ist korrekt
+515;B 10 0046511;;1;1;0;0;
+516;B 10 1177268;;1;1;0;1;
+517;B 10 0519652;;1;1;0;0;
+518;B101144220;;1;1;0;0;
+519;B 10 0018401;;1;1;0;0;
+520;B100421345;;1;1;0;1;
+521;B101124410;;1;1;0;1;
+522;B 10 0001502;;1;1;0;0;
+523;B101127418;;1;1;0;0;
+524;B101127038;;1;1;0;0;
+525;B 30 0313786;;1;1;0;0;
+526;B 10 1175061;;1;1;0;0;
+527;B 30 0310386;;1;1;0;0;
+528;B 10 0512783;;1;1;0;0;
+529;B 10 0588466;;1;1;0;0;
+530;B101213312;;1;1;0;0;
+531;B 10 1040020;;1;1;0;1;super Beispiel für gelungene Diskussion
+532;B 30 0318980;;1;1;0;0;
+533;B100128550;;1;1;0;1;
+534;B101127352;;9;7;2;0;Region ist aktuell „MG-7 Atsimo-Andrefana“
+535;B100472033;;1;1;0;0;
+536;B101196845;;1;1;0;0;
+537;B 10 1040398;;1;1;0;0;
+538;B 30 0313893;;1;1;0;0;
+539;B 10 0588406;;9;7;2;0;Region ist aktuell „IT-82 Sicilia“
+540;B 10 1025586;;1;1;0;0;
+541;B 10 1179983;;1;1;0;0;
+542;B 30 0314252;;9;7;2;0;Region ist aktuell„IT-34 Veneto“
+543;B 30 0313240;;6;4;7;0;Etikettentitel „Flora Suecica“ im Fundort überflüssig
+544;B 10 1181341;;2;2;2;0;Region falsch gewählt (zu weit weg von Skopje), keine Erklärung, korrekt: „keine Information“
+545;B 10 1181341;;9;7;1;0;Land heißt jetzt korrekt „MK Nordmazedonien“ (Namensänderung in Kraft seit Februar 2019)
+546;B 10 0677380;;1;1;0;0;
+547;B 30 0314882;;3;3a;9;0;Nicht lokalisiert, obwohl mit Hilfe der Messtischblattnummer der Ort Marktheidenfeld sicher zu bestimmen ist, Angabe mit <10 km Radius wäre möglich gewesen
+548;B 30 0319243;;6;4;7;0;Etikettentitel „Musci cechoslovenici“ und Sammler „Zd. Pilous“ im Fundort überflüssig
+549;B101071850;;1;1;0;1;
+550;B 10 0514107;;1;1;0;1;
+551;B101126037;;1;1;0;0;
+552;B 10 0300405;;5;3c;9;0;Ungünstig lokalisiert, dadurch Konflikt mit Region, Koordinaten liegen schon in Brandenburg, Widerspruch zur korrekten Region Berlin, siehe Validierungsproblem
+553;B 10 0300405;;10;8a;9;0;Widerspruch falsche Koordinaten, korrekte Region
+554;B100720688;;1;1;0;0;
+555;B 10 1180575;;1;1;0;0;
+556;B 10 1179736;;1;1;0;0;
+557;B101212672;;1;1;0;0;
+558;B101213565;;1;1;0;0;
+559;B100603210;;2;2;2;1;Region sollte „AT-3 Niederösterreich“ sein, nicht „AT-9 Wien“
+560;B100603210;;10;8a;2;1;Widerspruch falsche Region, korrekte Koordinaten
+561;B101073111;;1;1;0;0;
+562;B 30 0313864;;2;2;2;0;Region sollte „DK-84 Hovedstaden“ sein, nicht „DK-85 Sjælland“, die Angabe auf dem Etikett bezieht sich auf die Insel Sjælland, auf der sich u.a. auch Hovedstaden befindet
+563;B 30 0313864;;10;8a;2;0;Widerspruch falsche Region, korrekte Koordinaten
+564;B 30 0312719;;1;1;0;0;
+565;B 10 1025607;;1;1;0;0;
+566;B101126786;;1;1;0;0;
+567;B 10 0485346;;5;3c;9;1;Ungenau lokalisiert, ca. 15 km min von korrekt entfernt, Fundortbeschreibung nicht gut beachtet (Himmelrichtung, Lokoho Becken westlich der Stadt ist gut zu finden), <20km gewählt 
+568;B 10 0485346;;2;2;3;1;Tag falsch eingetragen, korrekt: Spanne bis 3. Januar 1951
+569;B 10 0485346;;9;7;2;1;Region ist aktuell „MG-19 Sava“
+570;B 30 0316226;;9;7;2;0;Region ist aktuell „FR-BFC Bourgogne-Franche-Comté“
+571;B101124488;;1;1;0;0;

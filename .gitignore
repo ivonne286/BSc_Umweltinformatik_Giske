@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environment
+.venv
+
+# Cython debug symbols
+cython_debug/
+
+# Editor config
+.vscode/
+
+# Script output
+/output/*
+
+# always keep .gitkeep
+!.gitkeep

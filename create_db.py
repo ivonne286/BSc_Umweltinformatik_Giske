@@ -7,7 +7,7 @@ from typing import Callable
 
 from views.views import create_views
 
-DB_PATH = "./output/db_neu.sqlite"
+DB_FILENAME = "./output/db_neu.sqlite"
 MISSIONS_FOLDER_PATH = "./input/missions/"
 
 # Paths to tables in csv format
@@ -24,21 +24,21 @@ for item in os.listdir(MISSIONS_FOLDER_PATH):
     INPUT_FILES.insert(0, (MISSIONS_FOLDER_PATH + str(item)))
 
 
-def check_DB_path():
-    if os.path.exists(DB_PATH):
-        os.remove(DB_PATH)
+def check_DB_FILENAME():
+    if os.path.exists(DB_FILENAME):
+        os.remove(DB_FILENAME)
         print(
-            "Old final DB_Herbonauten_DQ was deleted and is created from scratch now. This can take 1 to 2 minutes."
+            "The old database was deleted and is created from scratch now. This can take 1 to 2 minutes."
         )
     else:
         print(
-            "The final DB_Herbonauten_DQ is created from scratch now. This can take 1 to 2 minutes."
+            "The database is created from scratch now. This can take 1 to 2 minutes."
         )
 
 
 @contextmanager
-def get_db_connection(db_path: str):
-    conn = sqlite3.connect(db_path)
+def get_db_connection(DB_FILENAME: str):
+    conn = sqlite3.connect(DB_FILENAME)
     _ = conn.execute("pragma foreign_keys = on")
     try:
         yield conn
@@ -51,27 +51,27 @@ def init_db(conn: sqlite3.Connection):
     with closing(conn.cursor()) as cursor:
         _ = cursor.execute(
             """
-            drop table if exists category
+            DROP TABLE IF EXISTS category
             ;"""
         )
         _ = cursor.execute(
             """
-            drop table if exists cause_group
+            DROP TABLE IF EXISTS cause_group
             ;"""
         )
         _ = cursor.execute(
             """
-            drop table if exists error_type
+            DROP TABLE IF EXISTS error_type
             ;"""
         )
         _ = cursor.execute(
             """
-            drop table if exists mission
+            DROP TABLE IF EXISTS mission
             ;"""
         )
         _ = cursor.execute(
             """
-            create table category (
+            CREATE TABLE category (
                 id integer primary key autoincrement,
                 name text not null,
                 description text not null
@@ -79,7 +79,7 @@ def init_db(conn: sqlite3.Connection):
         )
         _ = cursor.execute(
             """
-            create table cause_group (
+            CREATE TABLE cause_group (
                 id integer primary key autoincrement,
 	            name text not null unique,
                 description text not null
@@ -87,7 +87,7 @@ def init_db(conn: sqlite3.Connection):
         )
         _ = cursor.execute(
             """
-            create table error_type (
+            CREATE TABLE error_type (
                 id integer primary key autoincrement,
                 code text not null unique,
 	            name text not null,
@@ -100,7 +100,7 @@ def init_db(conn: sqlite3.Connection):
         )
         _ = cursor.execute(
             """
-            create table mission (
+            CREATE TABLE mission (
                 id integer primary key autoincrement,
                 original_id integer not null unique,
                 name text not null,
@@ -114,18 +114,18 @@ def init_db(conn: sqlite3.Connection):
 
         _ = cursor.execute(
             """
-            drop table if exists sample_evaluation;
+            DROP TABLE IF EXISTS sample_evaluation;
             """
         )
         _ = cursor.execute(
             """
-            drop table if exists specimen;
+            DROP TABLE IF EXISTS specimen;
             """
         )
 
         _ = cursor.execute(
             """
-            create table specimen  (
+            CREATE TABLE specimen  (
                 id integer primary key autoincrement unique,
                 voucher_id text not null,
                 mission_id integer not null,
@@ -139,7 +139,7 @@ def init_db(conn: sqlite3.Connection):
 
         _ = cursor.execute(
             """
-            create table sample_evaluation (
+            CREATE TABLE sample_evaluation (
                 id integer primary key autoincrement,
                 specimen_id integer,
                 error_type_id integer not null,
@@ -158,10 +158,8 @@ def init_db(conn: sqlite3.Connection):
         conn.commit()
 
 
-# def in_sample(sample_set: set[str]) -> Callable[[str], bool]:
 def in_sample(sample_set: "set[str]") -> Callable[[str], bool]:
     def inner(voucher_id: str) -> bool:
-        # return voucher_id.replace(" ", "").strip() in sample_set
         return voucher_id in sample_set
 
     return inner
@@ -187,7 +185,7 @@ def insert_category_data(conn: sqlite3.Connection, input_file: str):
         with closing(conn.cursor()) as cursor:
             _ = cursor.executemany(
                 """
-                insert into category (id, name, description) values (?, ?, ?)
+                INSERT INTO category (id, name, description) VALUES (?, ?, ?)
                 """,
                 data,
             )
@@ -201,7 +199,7 @@ def insert_cause_group_data(conn: sqlite3.Connection, input_file: str):
         with closing(conn.cursor()) as cursor:
             _ = cursor.executemany(
                 """
-                insert into cause_group (id, name, description) values (?, ?, ?)
+                INSERT INTO cause_group (id, name, description) VALUES (?, ?, ?)
                 """,
                 data,
             )
@@ -225,7 +223,7 @@ def insert_error_type_data(conn: sqlite3.Connection, input_file: str):
         with closing(conn.cursor()) as cursor:
             _ = cursor.executemany(
                 """
-                insert into error_type (id, code, name, cause_group_id, description, assessment) values (?, ?, ?, ?, ?, ?)
+                INSERT INTO error_type (id, code, name, cause_group_id, description, assessment) VALUES (?, ?, ?, ?, ?, ?)
                 """,
                 data,
             )
@@ -251,7 +249,7 @@ def insert_mission_data(conn: sqlite3.Connection, input_file: str):
         with closing(conn.cursor()) as cursor:
             _ = cursor.executemany(
                 """
-                insert into Mission (id, original_id, name, year, amount_of_categories, amount_validated_by_system, amount_finished_by_herbonauts, amount_herbonauts_involved) values (?, ?, ?, ?, ?, ?, ?, ?)
+                INSERT INTO mission (id, original_id, name, year, amount_of_categories, amount_validated_by_system, amount_finished_by_herbonauts, amount_herbonauts_involved) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
                 """,
                 data,
             )
@@ -265,7 +263,7 @@ def load_sample_set():
         # return {row["voucher_id"].replace(" ", "").strip() for row in reader}
 
 
-def insert_data(
+def insert_specimen_data(
     conn: sqlite3.Connection, in_sample: Callable[[str], bool], input_file: str
 ):
     with open(input_file, encoding="utf-8") as csv_file:
@@ -283,7 +281,7 @@ def insert_data(
         with closing(conn.cursor()) as cursor:
             _ = cursor.executemany(
                 """
-                insert into specimen (voucher_id, mission_id, in_sample, validated_data, raw_data) values (?, ?, ?, ?, ?)
+                INSERT INTO specimen (voucher_id, mission_id, in_sample, validated_data, raw_data) VALUES (?, ?, ?, ?, ?)
                 """,
                 data,
             )
@@ -308,34 +306,35 @@ def insert_sample_evaluation_data(conn: sqlite3.Connection, input_file: str):
         with closing(conn.cursor()) as cursor:
             _ = cursor.executemany(
                 """
-                insert into sample_evaluation (id, specimen_id, error_type_id, category_id, discussion_available, notes) values(?,
+                INSERT INTO sample_evaluation (id, specimen_id, error_type_id, category_id, discussion_available, notes) VALUES(?,
                 (SELECT id FROM specimen WHERE specimen.voucher_id = ?), ?, ?, ?, ?);""",
                 (data),
             )
         conn.commit()
 
 
-def main():
-    check_DB_path()
-    with get_db_connection(DB_PATH) as conn:
-        init_db(conn)
-        insert_category_data(conn, CATEGORY_PATH)
-        insert_cause_group_data(conn, CAUSE_GROUP_PATH)
-        insert_error_type_data(conn, ERROR_TYPE_PATH)
-        insert_mission_data(conn, MISSION_PATH)
-        sample_set = load_sample_set()
-        is_in = in_sample(sample_set)
-        for input_file in INPUT_FILES:
-            insert_data(conn, is_in, input_file)
-        insert_sample_evaluation_data(conn, SAMPLE_EVALUATION_PATH)
-        create_views(conn)
-        print("The final DB_Herbonauten_DQ is now ready to explore.")
-
-
-# # untoggle this if you ONLY want to create views again, toggle line comment for line 312 to 327
 # def main():
-#     with get_db_connection(DB_PATH) as conn:
+#     check_DB_FILENAME()
+#     with get_db_connection(DB_FILENAME) as conn:
+#         init_db(conn)
+#         insert_category_data(conn, CATEGORY_PATH)
+#         insert_cause_group_data(conn, CAUSE_GROUP_PATH)
+#         insert_error_type_data(conn, ERROR_TYPE_PATH)
+#         insert_mission_data(conn, MISSION_PATH)
+#         sample_set = load_sample_set()
+#         is_in = in_sample(sample_set)
+#         for input_file in INPUT_FILES:
+#             insert_specimen_data(conn, is_in, input_file)
+#         insert_sample_evaluation_data(conn, SAMPLE_EVALUATION_PATH)
 #         create_views(conn)
+#         print("The database is now ready to explore, you can find it in the output folder.")
+
+
+# # untoggle this if you ONLY want to create views again, toggle line comment for line 316 to 329
+def main():
+    with get_db_connection(DB_FILENAME) as conn:
+        create_views(conn)
+        
 
 
 if __name__ == "__main__":

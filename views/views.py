@@ -3,7 +3,7 @@ from contextlib import closing
 
 def create_views(conn: sqlite3.Connection):
     print("Views are being created now.")
-    """Create Views in the final DB."""
+    """Create Views in the final database."""
     with closing(conn.cursor()) as cursor:
         _ = cursor.execute(
             """
@@ -70,9 +70,8 @@ def create_views(conn: sqlite3.Connection):
                 specimen.voucher_id AS Voucher_ID,
                 mission.name AS Mission_Name,
                 error_type.name AS Fehlertyp,
-				error_type.code,
                 category.name AS Kategorie,
-                sample_evaluation.discussion_available AS "Diskussion? 0=nein, 1=ja",
+                (CASE WHEN sample_evaluation.discussion_available == 1 THEN "ja" ELSE "nein" END) AS Diskussion_vorhanden,
                 sample_evaluation.notes AS Notizen
             FROM sample_evaluation
             INNER JOIN specimen ON specimen.id = sample_evaluation.specimen_id
@@ -103,7 +102,7 @@ def create_views(conn: sqlite3.Connection):
             INNER JOIN error_type ON error_type.id = sample_evaluation.error_type_id
             INNER JOIN category ON category.id = sample_evaluation.category_id
             INNER JOIN mission ON mission.id = specimen.mission_id
-            WHERE error_type.name IS NOT "Kein Fehler"
+            WHERE error_type.code IS NOT 1
             GROUP BY mission.name
             ORDER BY Fehleranzahl DESC
             ;"""
@@ -121,14 +120,14 @@ def create_views(conn: sqlite3.Connection):
         AS
         SELECT
 	        mission.name AS Name_Mission,
-	        COUNT(*) AS "Fehleranzahl_oV",
-            COUNT(DISTINCT sample_evaluation.specimen_id) AS fehlerhafte_Belege
+	        COUNT(*) AS Fehleranzahl_ohne_Validierungsprobleme,
+            COUNT(DISTINCT sample_evaluation.specimen_id) AS fehlerhafte_Belege_gesamt
         FROM sample_evaluation
         INNER JOIN specimen ON specimen.id = sample_evaluation.specimen_id
         INNER JOIN error_type ON error_type.id = sample_evaluation.error_type_id
         INNER JOIN category ON category.id = sample_evaluation.category_id
         INNER JOIN mission ON mission.id = specimen.mission_id
-        WHERE error_type.name IS NOT "Kein Fehler" and error_type.name NOT LIKE "Val%"
+        WHERE error_type.code IS NOT "1" and error_type.code NOT LIKE "8%"
         GROUP BY mission.id
         """)
 
@@ -145,10 +144,10 @@ def create_views(conn: sqlite3.Connection):
             mission.name AS Name_der_Mission,
 		    mission.year AS Jahr_Mission,
 		    mission.amount_of_categories AS Anzahl_Kategorien,
-            COUNT(DISTINCT sample_evaluation.specimen_id) AS "überprüfte Belege",
-		    COUNT(DISTINCT sample_evaluation.specimen_id)*mission.amount_of_categories AS "überprüfte Einträge",
-            View_Fehleranzahl_pro_Mission_ohne_Validierungsprobleme.Fehleranzahl_oV AS "fehlerhafte Einträge (ohne Validierungsprobleme)",
-		    round(View_Fehleranzahl_pro_Mission_ohne_Validierungsprobleme.Fehleranzahl_oV*100.00/(COUNT(DISTINCT sample_evaluation.specimen_id)*mission.amount_of_categories),1) AS "Fehlerquote in Prozent"
+            COUNT(DISTINCT sample_evaluation.specimen_id) AS überprüfte_Belege,
+		    COUNT(DISTINCT sample_evaluation.specimen_id)*mission.amount_of_categories AS überprüfte_Einträge,
+            View_Fehleranzahl_pro_Mission_ohne_Validierungsprobleme.Fehleranzahl_ohne_Validierungsprobleme AS fehlerhafte_Einträge_ohne_Validierungsprobleme,
+		    round(View_Fehleranzahl_pro_Mission_ohne_Validierungsprobleme.Fehleranzahl_ohne_Validierungsprobleme*100.00/(COUNT(DISTINCT sample_evaluation.specimen_id)*mission.amount_of_categories),1) AS Fehlerquote_in_Prozent
         FROM sample_evaluation
         INNER JOIN specimen ON specimen.id = sample_evaluation.specimen_id
         INNER JOIN error_type ON error_type.id = sample_evaluation.error_type_id
@@ -174,9 +173,9 @@ def create_views(conn: sqlite3.Connection):
                 mission.name AS Name_der_Mission,
 				mission.year AS Jahr_Mission,
                 mission.amount_finished_by_herbonauts AS Größe_Mission,
-                COUNT(DISTINCT sample_evaluation.specimen_id) AS "davon überprüft",
-                View_Fehleranzahl_pro_Mission.fehlerhafte_Belege AS "davon Belege mit Fehler",
-                View_Fehleranzahl_pro_Mission.Fehleranzahl AS "Fehleranzahl gesamt"
+                COUNT(DISTINCT sample_evaluation.specimen_id) AS davon_überprüft,
+                View_Fehleranzahl_pro_Mission.fehlerhafte_Belege AS davon_Belege_mit_Fehler,
+                View_Fehleranzahl_pro_Mission.Fehleranzahl AS Fehleranzahl_gesamt
             FROM sample_evaluation
             INNER JOIN specimen ON specimen.id = sample_evaluation.specimen_id
             INNER JOIN error_type ON error_type.id = sample_evaluation.error_type_id
@@ -217,12 +216,12 @@ def create_views(conn: sqlite3.Connection):
 
         _ = cursor.execute(
             """
-            DROP VIEW IF EXISTS View_Fehler_pro_Kategorie_ohne_Valid_prob
+            DROP VIEW IF EXISTS View_Fehler_pro_Kategorie_ohne_Validierungsprobleme
             ;""")
         
         _ = cursor.execute(
             """
-            CREATE VIEW View_Fehler_pro_Kategorie_ohne_Valid_prob
+            CREATE VIEW View_Fehler_pro_Kategorie_ohne_Validierungsprobleme
             AS
             SELECT
 	            category.name AS Kategorie,
@@ -273,8 +272,8 @@ def create_views(conn: sqlite3.Connection):
             SELECT
 	            error_type.name AS Fehlertyp,
 	            COUNT(*) AS Anzahl,
-		    cause_group.name AS "Fehlerursache kurz",
-		    ROUND((COUNT(*)*100.00/238),2) AS "%-Anteil an allen 238 Fehlern"
+		    cause_group.name AS Fehlerursache_kurz,
+		    ROUND((COUNT(*)*100.00/238),2) AS Anteil_an_allen_238_Fehlern_in_Prozent
             FROM sample_evaluation
             INNER JOIN specimen ON specimen.id = sample_evaluation.specimen_id
             INNER JOIN error_type ON error_type.id = sample_evaluation.error_type_id
@@ -449,14 +448,14 @@ def create_views(conn: sqlite3.Connection):
                 )
             SELECT
                 json_extract(specimen.validated_data, '$.country - country') AS Land,
-				country_count.TOTAL AS Gesamt_Belege_pro_Land,
+				country_count.TOTAL AS Belege_pro_Land_gesamt,
                 COUNT(json_extract(specimen.validated_data, '$.country - country')) AS Belege_mit_veränderter_Region
             FROM specimen
                 INNER JOIN sample_evaluation ON sample_evaluation.specimen_id = specimen.id
                 JOIN country_count ON country_count.country = json_extract(specimen.validated_data, '$.country - country')
             WHERE specimen.in_sample = 1 AND error_type_id = 9 AND category_id = 2
             GROUP BY Land
-            ORDER BY Gesamt_Belege_pro_Land DESC
+            ORDER BY Belege_pro_Land_gesamt DESC
             ;"""
         )
 
@@ -477,7 +476,7 @@ def create_views(conn: sqlite3.Connection):
                 error_type.name AS Fehlertyp,
 				error_type.code,
                 category.name AS Kategorie,
-                sample_evaluation.discussion_available AS "Diskussion? 0=nein, 1=ja",
+                (CASE WHEN sample_evaluation.discussion_available == 1 THEN "ja" ELSE "nein" END) AS Diskussion_vorhanden,
                 sample_evaluation.notes AS Notizen
             FROM sample_evaluation
             INNER JOIN specimen ON specimen.id = sample_evaluation.specimen_id

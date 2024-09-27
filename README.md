@@ -1,6 +1,6 @@
 # Readme
 
-Dieses Repository wurde im Rahmen der Bachelorarbeit **"Überprüfung der Datenqualität im Citizen-Science-Projekt "Die Herbonauten" am Botanischen Garten Berlin"** von Ivonne Giske (HTW Berlin) erstellt.
+Dieses Repository wurde im Rahmen der Bachelorarbeit **"Überprüfung der Datenqualität im Citizen-Science-Projekt "Die Herbonauten" am Botanischen Garten Berlin"** von Ivonne Giske im Fach Umweltinformatik an der HTW Berlin erstellt.
 
 ## Zweck
 
@@ -14,7 +14,7 @@ Die Datei `db_20240927.sqlite` im Stammverzeichnis enthält die finale Datenbank
 **Achtung** Das Hauptskript zur Erstellung der Datenbank funktioniert ohne weitere Voraussetzungen.
 Um die Datenbank von Grund auf neu zu erstellen, führen Sie bitte folgenden Befehl in der Kommandozeile aus:
 
-```sh
+```pwsh
 python3 ./create_db.py
 ```
 oder
@@ -83,3 +83,6 @@ Der Ordner `/scripts` enthält folgende Skripte:
 ## ERM der Datenbank
 
 ![ERM](./images/ERM_Herbonauten_DB.jpg)
+
+## Kontakt
+für Fragen kontaktieren Sie mich gern unter _ivonne.giske[at]student.htw-berlin.de_

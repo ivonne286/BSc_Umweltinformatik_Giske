@@ -82,7 +82,7 @@ Der Ordner `/scripts` enthält einige weitere Skripte, die zur Ziehung der Stich
 | create_cross_table.py           | erzeugt Kreuztabelle Kategorie Fehlertyp                    | `/output/kreuztabelle.csv`   |
 | create_diagram_Fehlerquoten1.py | erzeugt Diagramm der Fehlerquotenentwicklung                | Fenster mit Diagramm         |
 | create_diagram_Fehlerquoten2.py | erzeugt Diagramm der aktuellen und potenzielle Fehlerquoten | Fenster mit Diagramm         |
-| draw_sample.py                  | zieht eine Stichprobe Größe n                               | `/output/sample_example.csv` |
+| draw_sample.py                  | zieht eine Stichprobe der Größe `sample_size`               | `/output/sample_example.csv` |
 
 ## ERM
 

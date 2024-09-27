@@ -1,18 +1,17 @@
 # Readme
 
-Dieses Repository wurde im Rahmen der Bachelorarbeit **"Überprüfung der Datenqualität im Citizen-Science-Projekt "Die Herbonauten" am Botanischen Garten Berlin"** von Ivonne Giske erstellt.
+Dieses Repository wurde im Rahmen der Bachelorarbeit **"Überprüfung der Datenqualität im Citizen-Science-Projekt "Die Herbonauten" am Botanischen Garten Berlin"** von Ivonne Giske (HTW Berlin) erstellt.
 
 ## Zweck
 
-Das Repository enthält Daten und Skripte, die zur Erstellung einer Datenbank sowie weiterer Tabellen und Diagramme zur Auswertung und Fehleranalyse verwendet wurden.
+Das Repository enthält Daten und Skripte, die zur Erstellung der Projekt-Datenbank sowie weiterer Tabellen und Diagramme zur Auswertung und Fehleranalyse verwendet wurden.
 
 ## Zugriff auf die Datenbank (SQLite)
 
-Die Datei **db_20240927.sqlite** enthält die finale Datenbank. Zur Ansicht eignet sich z.B. die Webseite https://inloop.github.io/sqlite-viewer/ oder das Tool 'DB Browser for SQLite', erhältlich unter https://sqlitebrowser.org/.
+Die Datei **db_20240927.sqlite** im Stammverzeichnis enthält die finale Datenbank. Zur Ansicht eignet sich das freie Tool 'DB Browser for SQLite', erhältlich unter https://sqlitebrowser.org/ oder die Webseite https://inloop.github.io/sqlite-viewer/ mit der die Tabellen und Views direkt im Browser angeschaut werden können.
 
-### SQLite Kommandozeilenwerkzeug
 
-Die Datenbank kann auch über die Kommandozeile angesehen werden, dafür benötigen Sie SQLite: https://www.sqlite.org/index.html.
+_Möchten Sie die Datenbank neu generieren, lesen Sie bitte weiter:_
 
 ## Installationsvoraussetzungen
 
@@ -21,9 +20,9 @@ aktuelles python (getestet mit 3.12, minimum >= 3.9)
 
 **Achtung** Das Hauptscript zur Erstellung der Datenbank funktioniert ohne weitere Voraussetzungen. Es kann wie unter [Erstellen der Datenbank](#erstellen-der-datenbank) beschrieben direkt ausgeführt werden.
 
-Um die Hilfsscripte (im Unterordner `/scripts`) auszuführen, werden weitere Pakete benötigt (matplotlib, pandas). Diese können wie folgt installiert werden.
+Um weitere Skripte (im Unterordner `/scripts`) auszuführen, werden zusätzliche Python-Pakete benötigt (matplotlib, pandas). Diese können wie folgt installiert werden.
 
-1. Erstellen einer virtuellen Umgebung für die Python Abhängigkeiten:
+1. Erstellen einer virtuellen Umgebung für die Python-Abhängigkeiten:
 
 ```sh
 python -m venv .venv
@@ -62,10 +61,15 @@ Um die Datenbank von Grund auf neu zu erstellen, führen Sie bitte folgenden Bef
 ```sh
 python3 ./create_db.py
 ```
+oder
+
+```sh
+python create_db.py
+```
 
 Danach wird die Datenbank aus den CSV-Dateien der Missionen und Tabellenvorlagen erstellt, die Stichprobe sowie die Auswertung werden importiert.
 
-Die Datei wird als `/output/db_neu.sqlite` erstellt.
+Die Datei wird als `db_neu.sqlite` erstellt und im Ordner `/output/` abgelegt.
 
 **Achtung** Die für die Abschlussarbeit verwendete Version der Datenbank ist zwecks Reproduzierbarkeit als `db_20240927.sqlite` im Stammverzeichnis abgelegt.
 

@@ -11,7 +11,11 @@ Das Repository enthält Daten und Skripte, die zur Erstellung der Projekt-Datenb
 Die Datei `db_20240927.sqlite` im Stammverzeichnis enthält die finale Datenbank. Zur Ansicht eignet sich das Open Source Tool 'DB Browser for SQLite', erhältlich unter https://sqlitebrowser.org/, oder die Webseite https://inloop.github.io/sqlite-viewer/ mit der Tabellen und Views direkt im Browser angeschaut werden können.
 
 ## Erstellen der Datenbank
-**Achtung** Das Hauptskript zur Erstellung der Datenbank funktioniert ohne weitere Voraussetzungen.
+**Voraussetzung**\
+aktuelles Python (getestet mit 3.12, minimum >= 3.9)
+
+**Hinweis**\
+Das Hauptskript zur Erstellung der Datenbank funktioniert ohne weitere Voraussetzungen,
 Um die Datenbank von Grund auf neu zu erstellen, führen Sie bitte folgenden Befehl in der Kommandozeile aus:
 
 ```pwsh
@@ -27,14 +31,14 @@ Danach wird die Datenbank aus den CSV-Dateien der Missionen, Tabellenvorlagen un
 
 Die Datei finden Sie als `db_neu.sqlite` im Unterordner `/output`.
 
-**Achtung** Die für die Abschlussarbeit verwendete Version der Datenbank ist zwecks Reproduzierbarkeit als `db_20240927.sqlite` im Stammverzeichnis abgelegt.
-
+**Hiweis**\
+Die für die Abschlussarbeit verwendete Version der Datenbank ist zwecks Reproduzierbarkeit als `db_20240927.sqlite` im Stammverzeichnis abgelegt.
 
 ## Installationsvoraussetzungen für die Ausführung weiterer Skripte
-
-**Voraussetzung**\
+**Voraussetzung**
 aktuelles Python (getestet mit 3.12, minimum >= 3.9)
 
+**Achtung**\
 Um weitere Skripte im Unterordner `/scripts` auszuführen, werden zusätzliche Python-Pakete benötigt (matplotlib, pandas). Diese können wie folgt installiert werden.
 
 1. Erstellen einer virtuellen Umgebung für die Python-Abhängigkeiten:
@@ -47,7 +51,7 @@ python -m venv .venv
 
 **Windows**
 
-```sh
+```pwsh
 .\.venv\Scripts\activate
 ```
 

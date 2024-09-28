@@ -2,6 +2,21 @@
 
 Dieses Repository wurde im Rahmen der Bachelorarbeit **"Überprüfung der Datenqualität im Citizen-Science-Projekt "Die Herbonauten" am Botanischen Garten Berlin"** von Ivonne Giske im Fach Umweltinformatik an der HTW Berlin erstellt.
 
+<!--toc:start-->
+- [Readme](#readme)
+  - [Zweck](#zweck)
+  - [Zugriff auf die Datenbank (SQLite)](#zugriff-auf-die-datenbank-sqlite)
+  - [Erstellen der Datenbank](#erstellen-der-datenbank)
+  - [Installationsvoraussetzungen für die Ausführung weiterer Skripte](#installationsvoraussetzungen-für-die-ausführung-weiterer-skripte)
+  - [Liste weiterer Skripte](#liste-weiterer-skripte)
+  - [ERM der Datenbank](#erm-der-datenbank)
+<!--toc:end-->
+
+
+
+
+
+
 ## Zweck
 
 Das Repository enthält Daten und Skripte, die zur Erstellung der Projekt-Datenbank sowie weiterer Tabellen und Diagramme zur Auswertung und Fehleranalyse verwendet wurden.
@@ -12,21 +27,15 @@ Die Datei `db_20240927.sqlite` im Stammverzeichnis enthält die finale Datenbank
 
 ## Erstellen der Datenbank
 **Voraussetzung**\
-aktuelles Python (getestet mit 3.12, minimum >= 3.9)
+aktuelles Python (getestet mit 3.12, minimum >= 3.10)
 
 **Hinweis**\
 Das Hauptskript zur Erstellung der Datenbank funktioniert ohne weitere Voraussetzungen,
 Um die Datenbank von Grund auf neu zu erstellen, führen Sie bitte folgenden Befehl in der Kommandozeile aus:
 
 ```pwsh
-python3 ./create_db.py
+python3 create_db.py
 ```
-oder
-
-```sh
-python create_db.py
-```
-
 Danach wird die Datenbank aus den CSV-Dateien der Missionen, Tabellenvorlagen und der Stichprobenauswertung generiert. Ebenso werden einige Views zur Veranschaulichung der Untersuchung und Fehleranalyse erstellt.
 
 Die Datei finden Sie als `db_neu.sqlite` im Unterordner `/output`.
@@ -36,7 +45,7 @@ Die für die Abschlussarbeit verwendete Version der Datenbank ist zwecks Reprodu
 
 ## Installationsvoraussetzungen für die Ausführung weiterer Skripte
 **Voraussetzung**
-aktuelles Python (getestet mit 3.12, minimum >= 3.9)
+aktuelles Python (getestet mit 3.12, minimum >= 3.10)
 
 **Achtung**\
 Um weitere Skripte im Unterordner `/scripts` auszuführen, werden zusätzliche Python-Pakete benötigt (matplotlib, pandas). Diese können wie folgt installiert werden.
@@ -52,7 +61,7 @@ python -m venv .venv
 **Windows**
 
 ```pwsh
-.\.venv\Scripts\activate
+.venv\Scripts\activate
 ```
 
 **Linux / Mac**
@@ -64,7 +73,7 @@ source .venv/bin/activate
 3. Abhängigkeiten installieren
 
 ```sh
-python -m pip intall -r .\requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 4. Verlassen der virtuellen Umgebung nach Abschluss
@@ -88,5 +97,3 @@ Der Ordner `/scripts` enthält folgende Skripte:
 
 ![ERM](./images/ERM_Herbonauten_DB.jpg)
 
-## Kontakt
-für Fragen kontaktieren Sie mich gern unter _ivonne.giske[at]student.htw-berlin.de_

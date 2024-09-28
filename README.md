@@ -13,10 +13,6 @@ Dieses Repository wurde im Rahmen der Bachelorarbeit **"Überprüfung der Datenq
 <!--toc:end-->
 
 
-
-
-
-
 ## Zweck
 
 Das Repository enthält Daten und Skripte, die zur Erstellung der Projekt-Datenbank sowie weiterer Tabellen und Diagramme zur Auswertung und Fehleranalyse verwendet wurden.
@@ -31,17 +27,17 @@ aktuelles Python (getestet mit 3.12, minimum >= 3.10)
 
 **Hinweis**\
 Das Hauptskript zur Erstellung der Datenbank funktioniert ohne weitere Voraussetzungen,
-Um die Datenbank von Grund auf neu zu erstellen, führen Sie bitte folgenden Befehl in der Kommandozeile aus:
+um die Datenbank von Grund auf neu zu erstellen, führen Sie bitte folgenden Befehl in der Kommandozeile aus:
 
 ```pwsh
 python3 create_db.py
 ```
-Danach wird die Datenbank aus den CSV-Dateien der Missionen, Tabellenvorlagen und der Stichprobenauswertung generiert. Ebenso werden einige Views zur Veranschaulichung der Untersuchung und Fehleranalyse erstellt.
+In einigen Fällen lautet der Befehl nur python create_db.py. Danach wird die Datenbank aus den CSV-Dateien der Missionen, Tabellenvorlagen und der Stichprobenauswertung generiert. Ebenso werden einige Views zur Veranschaulichung der Untersuchung und Fehleranalyse erstellt.
 
-Die Datei finden Sie als `db_neu.sqlite` im Unterordner `/output`.
+Die neu erstellte Datenbank finden Sie als `db_neu.sqlite` im Unterordner `/output`.
 
 **Hiweis**\
-Die für die Abschlussarbeit verwendete Version der Datenbank ist zwecks Reproduzierbarkeit als `db_20240927.sqlite` im Stammverzeichnis abgelegt.
+Die für die Abschlussarbeit verwendete Version der Datenbank ist zwecks Reproduzierbarkeit als `db_20240927.sqlite` im Stammverzeichnis abgelegt, siehe [Zugriff auf die Datenbank (SQLite)](#zugriff-auf-die-datenbank-sqlite)
 
 ## Installationsvoraussetzungen für die Ausführung weiterer Skripte
 **Voraussetzung**

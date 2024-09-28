@@ -19,7 +19,7 @@ Das Repository enthält Daten und Skripte, die zur Erstellung der Projekt-Datenb
 
 ## Zugriff auf die Datenbank (SQLite)
 
-Die Datei `db_20240927.sqlite` im Stammverzeichnis enthält die finale Datenbank. Zur Ansicht eignet sich das Open Source Tool 'DB Browser for SQLite', erhältlich unter https://sqlitebrowser.org/, oder die Webseite https://inloop.github.io/sqlite-viewer/ mit der Tabellen und Views direkt im Browser angeschaut werden können.
+Die Datei `db_20240927.sqlite` im Stammverzeichnis enthält die finale Datenbank. Zur Ansicht eignet sich das Open Source Tool 'DB Browser for SQLite', erhältlich unter [https://sqlitebrowser.org/](https://sqlitebrowser.org/), oder die Webseite [https://inloop.github.io/sqlite-viewer/](https://inloop.github.io/sqlite-viewer/) mit der Tabellen und Views direkt im Browser angeschaut werden können.
 
 ## Erstellen der Datenbank
 **Voraussetzung**\

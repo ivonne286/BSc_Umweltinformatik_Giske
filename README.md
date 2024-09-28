@@ -37,7 +37,7 @@ In einigen Fällen lautet der Befehl nur python create_db.py. Danach wird die Da
 Die neu erstellte Datenbank finden Sie als `db_neu.sqlite` im Unterordner `/output`.
 
 **Hiweis**\
-Die für die Abschlussarbeit verwendete Version der Datenbank ist zwecks Reproduzierbarkeit als `db_20240927.sqlite` im Stammverzeichnis abgelegt, siehe [Zugriff auf die Datenbank (SQLite)](#zugriff-auf-die-datenbank-sqlite)
+Die für die Abschlussarbeit verwendete Version der Datenbank ist zwecks Reproduzierbarkeit als `db_20240927.sqlite` im Stammverzeichnis abgelegt, siehe [Zugriff auf die Datenbank (SQLite)](#zugriff-auf-die-datenbank-sqlite).
 
 ## Installationsvoraussetzungen für die Ausführung weiterer Skripte
 **Voraussetzung**
@@ -49,7 +49,7 @@ Um weitere Skripte im Unterordner `/scripts` auszuführen, werden zusätzliche P
 1. Erstellen einer virtuellen Umgebung für die Python-Abhängigkeiten:
 
 ```sh
-python -m venv .venv
+python3 -m venv .venv
 ```
 
 2. Virtuelle Umgebung aktivieren
@@ -69,7 +69,7 @@ source .venv/bin/activate
 3. Abhängigkeiten installieren
 
 ```sh
-python -m pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 ```
 
 4. Verlassen der virtuellen Umgebung nach Abschluss

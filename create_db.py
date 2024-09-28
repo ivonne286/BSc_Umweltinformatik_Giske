@@ -313,27 +313,27 @@ def insert_sample_evaluation_data(conn: sqlite3.Connection, input_file: str):
         conn.commit()
 
 
-# def main():
-#     check_DB_FILENAME()
-#     with get_db_connection(DB_FILENAME) as conn:
-#         init_db(conn)
-#         insert_category_data(conn, CATEGORY_PATH)
-#         insert_cause_group_data(conn, CAUSE_GROUP_PATH)
-#         insert_error_type_data(conn, ERROR_TYPE_PATH)
-#         insert_mission_data(conn, MISSION_PATH)
-#         sample_set = load_sample_set()
-#         is_in = in_sample(sample_set)
-#         for input_file in INPUT_FILES:
-#             insert_specimen_data(conn, is_in, input_file)
-#         insert_sample_evaluation_data(conn, SAMPLE_EVALUATION_PATH)
-#         create_views(conn)
-#         print("The database is now ready to explore, you can find it in the output folder.")
+def main():
+    check_DB_FILENAME()
+    with get_db_connection(DB_FILENAME) as conn:
+        init_db(conn)
+        insert_category_data(conn, CATEGORY_PATH)
+        insert_cause_group_data(conn, CAUSE_GROUP_PATH)
+        insert_error_type_data(conn, ERROR_TYPE_PATH)
+        insert_mission_data(conn, MISSION_PATH)
+        sample_set = load_sample_set()
+        is_in = in_sample(sample_set)
+        for input_file in INPUT_FILES:
+            insert_specimen_data(conn, is_in, input_file)
+        insert_sample_evaluation_data(conn, SAMPLE_EVALUATION_PATH)
+        create_views(conn)
+        print("The database is now ready to explore, you can find it in the output folder.")
 
 
 # # untoggle this if you ONLY want to create views again, toggle line comment for line 316 to 329
-def main():
-    with get_db_connection(DB_FILENAME) as conn:
-        create_views(conn)
+# def main():
+#     with get_db_connection(DB_FILENAME) as conn:
+#         create_views(conn)
         
 
 
